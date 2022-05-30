@@ -62,7 +62,7 @@
 
     <url type="homepage">http://www.arduino.cc/</url>
     <url type="help">https://docs.arduino.cc/software/ide-v2</url>
-    <url type="bugtracker">https://github.com//arduino/arduino-ide/issues</url>
+    <url type="bugtracker">https://github.com/arduino/arduino-ide/issues</url>
     <url type="translate">https://www.transifex.com/arduino-1/ide2/</url>
     <url type="donation">https://www.arduino.cc/en/donate/</url>
 
