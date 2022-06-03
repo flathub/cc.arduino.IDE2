@@ -22,11 +22,16 @@
             This is version 2 of the Arduino IDE. Version 2 is currently still in beta.
 		</p>
 		<p>
-			The Flatpak build of Arduino IDE 2.x requires the user to have USB permissions to upload a sketch, preferably, the user has to be part of the dialout group. <br />
-			Alternatively, add: <br />
-				KERNEL=="ttyUSB[0-9]*",MODE="0666" <br />
-				KERNEL=="ttyACM[0-9]*",MODE="0666" <br />
-			to /etc/udev/rules.d/50-arduino.rules
+			The Flatpak build of Arduino IDE 2.x requires the user to have USB permissions to upload a sketch, preferably, the user has to be part of the dialout group.
+		</p>
+		<p>
+			Alternatively, add the following 2 lines to /etc/udev/rules.d/50-arduino.rules:
+		</p>
+		<p>
+			KERNEL=="ttyUSB[0-9]*",MODE="0666"
+		</p>
+		<p>
+			KERNEL=="ttyACM[0-9]*",MODE="0666"
 		</p>
 	</description>
 
