@@ -17,9 +17,9 @@
             Included is an integrated development environment that can be used
             to develop and upload code to compatible microcontrollers.
         </p>
-	<p>
+		<p>
             This is version 2 of the Arduino IDE. Version 2 is currently still in beta.
-	</p>
+		</p>
     </description>
 
 	<releases>
