@@ -36,6 +36,34 @@
 	</description>
 
 	<releases>
+		<release version="2.0.0-rc7" date="2022-06-09">
+			<description>
+				<ul>
+					<li>Updated to version 2 release candidate 7. github.com/arduino/arduino-ide/releases/tag/2.0.0-rc7</li>
+					<li>Fix monitor service id creation. </li>
+					<li>Added logging when restoring the layout data. </li>
+					<li>Avoid opening duplicate editor tabs. </li>
+					<li>Editor manager should be singleton. </li>
+					<li>Pluggable monitor. </li>
+					<li>Speed up IDE startup time. </li>
+					<li>Updated translation files. </li>
+					<li>Follow up 944: authentication sessions are not persistent. </li>
+					<li>Use `clang-format` as the default sketch formatter. </li>
+					<li>Dark theme implementation. </li>
+					<li>Fixed LS stops working after OS sleep/wakeup cycle. </li>
+					<li>Save dialog for closing temporary sketch and unsaved files. </li>
+					<li>Fix duplicated editor tabs. </li>
+					<li>Relaxed the Node version: `^14.x`. </li>
+					<li>Updated Theia to 1.25.0. </li>
+					<li>#944: Fixed auth. sessions not persistent. </li>
+					<li>#985: Restored the missing `inject` decorator.  </li>
+					<li>Allow flexibility in OS type selections in issue forms. </li>
+					<li>Updated translation files. </li>
+					<li>Save all open editors before running `Save As`. </li>
+					<li>ignore workspace root check in changelog workflow. </li>
+				</ul>
+			</description>
+		</release>
 		<release version="2.0.0-rc6" date="2022-04-20">
 			<description>
 				<ul>
