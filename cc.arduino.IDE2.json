@@ -62,7 +62,7 @@
             "build-commands": [
                 "mv ./arduino-ide /app/arduino-ide",
                 "install -D arduino-ide.sh /app/bin/arduino-ide",
-                "install -Dm644 arduino.svg /app/share/icons/hicolor/scalable/apps/cc.arduino.IDE2.svg",
+                "install -Dm644 cc.arduino.IDE2.svg /app/share/icons/hicolor/scalable/apps/cc.arduino.IDE2.svg",
                 "install -Dm644 cc.arduino.IDE2.appdata.xml /app/share/appdata/cc.arduino.IDE2.appdata.xml",
                 "install -Dm644 cc.arduino.IDE2.desktop /app/share/applications/cc.arduino.IDE2.desktop"
             ],
@@ -81,6 +81,7 @@
                 },
                 {
                     "type": "file",
+                    "dest-filename": "cc.arduino.IDE2.svg",
                     "url": "https://www.arduino.cc/wiki/370832ed4114dd35d498f2f449b4781e/arduino.svg",
                     "sha256": "4137981bcb4057c2e0092f22faea287767f102e0b48497d22cd55e8d6988e4ac"
                 },
