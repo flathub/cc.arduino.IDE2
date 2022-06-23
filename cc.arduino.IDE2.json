@@ -19,9 +19,8 @@
     ],
 
     "modules": [
-        "shared-modules/libusb/libusb.json",
-        "python3-pyserial.json",
         "shared-modules/libsecret/libsecret.json",
+        "shared-modules/libusb/libusb.json",
         {
             "name": "usbutils",
             "config-opts": [
@@ -33,9 +32,30 @@
                     "type": "git",
                     "url": "https://github.com/gregkh/usbutils.git",
                     "tag": "v014",
-                    "commit": "57fb18e59cce31a50a1ca62d1e192512c905ba00"
+                    "commit": "57fb18e59cce31a50a1ca62d1e192512c905ba00",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    }
                 }
-
+            ]
+        },
+        {
+            "name": "python3-pyserial",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pyserial\""
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/07/bc/587a445451b253b285629263eb51c2d8e9bcea4fc97826266d186f96f558/pyserial-3.5-py2.py3-none-any.whl",
+                    "sha256": "c4451db6ba391ca6ca299fb3ec7bae67a5c55dde170964c7a14ceefec02f2cf0",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "pyserial"
+                    }
+                }
             ]
         },
         {
@@ -52,7 +72,13 @@
                 {
                     "type": "archive",
                     "url": "https://www.kernel.org/pub/software/scm/git/git-2.36.1.tar.gz",
-                    "sha256": "37d936fd17c81aa9ddd3dba4e56e88a45fa534ad0ba946454e8ce818760c6a2c"
+                    "sha256": "37d936fd17c81aa9ddd3dba4e56e88a45fa534ad0ba946454e8ce818760c6a2c",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 5350,
+                        "stable-only": true,
+                        "url-template": "https://www.kernel.org/pub/software/scm/git/git-$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -92,7 +118,13 @@
                         "x86_64"
                     ],
                     "url": "https://github.com/arduino/arduino-ide/releases/download/2.0.0-rc8/arduino-ide_2.0.0-rc8_Linux_64bit.zip",
-                    "sha256": "830519afaa3c6144484567807258b375e193026fcac1f5137e6ff3749855786c"
+                    "sha256": "830519afaa3c6144484567807258b375e193026fcac1f5137e6ff3749855786c",
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/arduino/arduino-ide/releases/latest",
+                        "version-query": ".tag_name | sub(\"^jq-\"; \"\")",
+                        "url-template": "https://github.com/arduino/arduino-ide/releases/download/$version/arduino-ide_$version_Linux_64bit.zip"
+                    }
                 }
             ]
         },
@@ -105,7 +137,8 @@
                     "tag": "v2022.04",
                     "commit": "55a60d110301e8dd37b631503c3524ab7baaf7aa",
                     "x-checker-data": {
-                        "type": "git"
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
                     }
                 }
             ]
