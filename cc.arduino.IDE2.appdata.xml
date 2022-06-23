@@ -36,6 +36,31 @@
 	</description>
 
 	<releases>
+		<release version="2.0.0-rc8" date="2022-06-23">
+			<description>
+				<ul>
+					<li>Updated to version 2 release candidate 8. github.com/arduino/arduino-ide/releases/tag/2.0.0-rc8</li>
+					<li>bump arduino-cli version to 0.24.0 (#1103) [672fd4e]</li>
+					<li>reference cli rc1 0.24 in package.json (#1098) [0f1d379]</li>
+					<li>Sketchbook tree indentation (#1097) [a79c9b4]</li>
+					<li>Disabled MenuItem roles on macOS. [0f8a29a]</li>
+					<li>#1032 failing upload flag for monitor mgr (#1040) [a54d7c8]</li>
+					<li>Fixed widget lookup to eliminate duplicate tabs. [84109e4]</li>
+					<li>IDE updater dialog colors fix (#1092) [083337d]</li>
+					<li>Remote sketchbook tooltips (#1088) [bd6bc13]</li>
+					<li>Merged in #1074. [4611381]</li>
+					<li>Reveal the error location after on failed verify. [d6f4096]</li>
+					<li>flush on clear output buffer (#1074) [a715da3]</li>
+					<li>Can enable debug logging of the gRPC calls. [94ceefd]</li>
+					<li>Cleaned up File menu. [27dd120]</li>
+					<li>Implement survey notification (#1035) [f5cee97]</li>
+					<li>Bound the original handler to this. [a9aac0d]</li>
+					<li>Output panel optimisation (#1058) [4c62431]</li>
+					<li>Restored the Settings UI. Deferred model loading. [a804766]</li>
+					<li>Relaxed the error handling of the core client init [7c2843f]</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2.0.0-rc7" date="2022-06-09">
 			<description>
 				<ul>
