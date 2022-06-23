@@ -53,7 +53,8 @@
                     "sha256": "c4451db6ba391ca6ca299fb3ec7bae67a5c55dde170964c7a14ceefec02f2cf0",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "pyserial"
+                        "name": "pyserial",
+                        "packagetype": "bdist_wheel"
                     }
                 }
             ]
@@ -123,7 +124,7 @@
                         "type": "json",
                         "url": "https://api.github.com/repos/arduino/arduino-ide/releases/latest",
                         "version-query": ".tag_name | sub(\"^jq-\"; \"\")",
-                        "url-template": "https://github.com/arduino/arduino-ide/releases/download/$version/arduino-ide_$version_Linux_64bit.zip"
+                        "url-query": ".assets[] | select(.name==\"arduino-ide_\" + $version + \"_Linux_64bit.zip\") | .browser_download_url"
                     }
                 }
             ]
