@@ -41,6 +41,22 @@
             ]
         },
         {
+            "name": "libusb-compat",
+            "config-opts": [ "--disable-static", "--disable-build-docs" ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/libusb/libusb-compat-0.1.git",
+                    "tag": "v0.1.7",
+                    "commit": "4a27760ec5954ec8605e052a3207afbe0979eeef",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    }
+                }
+            ]
+        },
+        {
             "name": "python3-pyserial",
             "buildsystem": "simple",
             "build-commands": [
