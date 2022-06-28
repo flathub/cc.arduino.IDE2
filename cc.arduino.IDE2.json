@@ -17,7 +17,6 @@
         "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.freedesktop.Notifications"
     ],
-
     "modules": [
         "shared-modules/libsecret/libsecret.json",
         "shared-modules/libusb/libusb.json",
@@ -42,7 +41,10 @@
         },
         {
             "name": "libusb-compat",
-            "config-opts": [ "--disable-static", "--disable-build-docs" ],
+            "config-opts": [
+                "--disable-static",
+                "--disable-build-docs"
+            ],
             "sources": [
                 {
                     "type": "git",
@@ -88,8 +90,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.kernel.org/pub/software/scm/git/git-2.36.1.tar.gz",
-                    "sha256": "37d936fd17c81aa9ddd3dba4e56e88a45fa534ad0ba946454e8ce818760c6a2c",
+                    "url": "https://www.kernel.org/pub/software/scm/git/git-2.37.0.tar.gz",
+                    "sha256": "fc3ffe6c65c1f7c681a1ce6bb91703866e432c762731d4b57c566d696f6d62c3",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 5350,
