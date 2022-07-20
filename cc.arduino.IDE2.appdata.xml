@@ -36,6 +36,30 @@
 	</description>
 
 	<releases>
+		<release version="2.0.0-rc9" date="2022-07-20">
+			<description>
+				<ul>
+					<li>Added: New Toolbar UI (#1194)</li>
+					<li>Added: New Board Selector: show port protocol (#1193)</li>
+					<li>Added: Enable IDE translations: Italian, Russian, Spanish, Portuguese, Czech (#712 #1166)</li>
+					<li>Changed: Improve UI, colors, and icons (#1095, #979, #1148, #1146, #1122, #1159 )</li>
+					<li>Changed: Remove Editor tabs contextual menu (#1127)</li>
+					<li>Fixed: Platform installation prompt only made for boards listed in oldest release (#979)</li>
+					<li>Fixed: Opening a sketch will not show the last state of the sidebar in the new window (#442)</li>
+					<li>Fixed: Remote sketchbook widget rendering empty (#1129)</li>
+					<li>Fixed: Sketchbook view can't handle more than two tree levels (#1015)</li>
+					<li>Fixed: Platform installation only offered if port is selected (#854)</li>
+					<li>Fixed: Window minimum size is too small and content is not shown correctly when the size is small (#129 #662 #779)</li>
+					<li>Fixed: Package index is not downloaded after adding URL to preferences (#637 #906)</li>
+					<li>Fixed: Prevent overwriting existing libraries and platforms at first IDE start-up (#798 #1169)</li>
+					<li>Fixed: Default theme at first launch doesn't match the OS theme (#530)</li>
+					<li>Fixed: Fall back to new sketch if opening failed (#1089)</li>
+					<li>Fixed: Board Selector only updates on board selection via other interfaces if associated port is selected (#1206)</li>
+					<li>Fixed: Avoid reindexing libraries on every single text document change event (#714)</li>
+					<li>Known Issues: Themes: High Contrast is broken (#1202)</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2.0.0-rc8" date="2022-06-23">
 			<description>
 				<ul>
