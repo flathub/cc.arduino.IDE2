@@ -34,7 +34,26 @@
 			KERNEL=="ttyACM[0-9]*",MODE="0666"
 		</p>
 	</description>
-
+<releases>
+		<release version="2.0.0-rc9.1" date="2022-08-02">
+			<description>
+				<ul>
+					<li>Added: Show progress indicator during verify/upload (#575 #1175)</li>
+					<li>Changed: Improve the UX of the Arduino language server (#1255)</li>
+					<li>Fixed: Wrong primary button color in info messages (#1227)</li>
+					<li>Fixed: Verbose output preferences are not applied correctly (#374)</li>
+					<li>Fixed: Incorrect theme shown on first start in settings (#1223)</li>
+					<li>Fixed: Settings dialog broken when scaling up the IDE (#1205)</li>
+					<li>Fixed: IDE2 might forget the selected language (#1219)</li>
+					<li>Fixed: Custom themes do not update correctly (#1225 #1257)</li>
+					<li>Fixed: High Contrast theme fixes (#1202)</li>
+					<li>Fixed: The address of the board is off from the board selection dropdown (#998)</li>
+					<li>Fixed: Quicker upload notification (#279)</li>
+					<li>Fixed: New file is opened using a quarter of the screen (#1244)</li>
+					<li>Fixed: SaveAs hangs with empty window (#1191)</li>
+				</ul>
+			</description>
+		</release>
 	<releases>
 		<release version="2.0.0-rc9" date="2022-07-20">
 			<description>
