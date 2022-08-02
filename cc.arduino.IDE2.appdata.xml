@@ -34,7 +34,7 @@
 			KERNEL=="ttyACM[0-9]*",MODE="0666"
 		</p>
 	</description>
-<releases>
+	<releases>
 		<release version="2.0.0-rc9.1" date="2022-08-02">
 			<description>
 				<ul>
@@ -54,7 +54,6 @@
 				</ul>
 			</description>
 		</release>
-	<releases>
 		<release version="2.0.0-rc9" date="2022-07-20">
 			<description>
 				<ul>
