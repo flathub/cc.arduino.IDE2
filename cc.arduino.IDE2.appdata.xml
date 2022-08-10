@@ -35,6 +35,21 @@
 		</p>
 	</description>
 	<releases>
+		<release version="2.0.0-rc9.2" date="2022-08-10">
+			<description>
+				<ul>
+					<li>Added: Live change of theme from Preferences dropdown (#1296 #1048)</li>
+					<li>Added: Add Auto Format item under the Edit menu (#1230)</li>
+					<li>Changed: Replaced the splash screen with a preload (#1287)</li>
+					<li>Fixed: Upload fails when Serial Monitor is open (#1278)</li>
+					<li>Fixed: Starting IDE creates an "undefined" folder in the current directory (#394)</li>
+					<li>Fixed: Auto Format configuration doesn't match classic Arduino IDE (#42)</li>
+					<li>Fixed: IDE does not load until you return to the Arduino IDE screen and click on something (#193)</li>
+					<li>Fixed: Splash Screen Should not be Always on Top (#324)</li>
+					<li>Fixed: Application start-up is paused when the window is minimized (#327)</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2.0.0-rc9.1" date="2022-08-02">
 			<description>
 				<ul>
