@@ -96,7 +96,6 @@
 		<release version="2.0.0-rc8" date="2022-06-23">
 			<description>
 				<ul>
-					<li>Updated to version 2 release candidate 8. github.com/arduino/arduino-ide/releases/tag/2.0.0-rc8</li>
 					<li>bump arduino-cli version to 0.24.0 (#1103) [672fd4e]</li>
 					<li>reference cli rc1 0.24 in package.json (#1098) [0f1d379]</li>
 					<li>Sketchbook tree indentation (#1097) [a79c9b4]</li>
@@ -121,7 +120,6 @@
 		<release version="2.0.0-rc7" date="2022-06-09">
 			<description>
 				<ul>
-					<li>Updated to version 2 release candidate 7. github.com/arduino/arduino-ide/releases/tag/2.0.0-rc7</li>
 					<li>Fix monitor service id creation. </li>
 					<li>Added logging when restoring the layout data. </li>
 					<li>Avoid opening duplicate editor tabs. </li>
@@ -143,34 +141,6 @@
 					<li>Updated translation files. </li>
 					<li>Save all open editors before running `Save As`. </li>
 					<li>ignore workspace root check in changelog workflow. </li>
-				</ul>
-			</description>
-		</release>
-		<release version="2.0.0-rc6" date="2022-04-20">
-			<description>
-				<ul>
-					<li>Updated to version 2 release candidate 6. github.com/arduino/arduino-ide/releases/tag/2.0.0-rc6</li>
-				</ul>
-			</description>
-		</release>
-		<release version="2.0.0-rc5" date="2022-03-10">
-			<description>
-				<ul>
-					<li>Updated to version 2 release candidate 5. github.com/arduino/arduino-ide/releases/tag/2.0.0-rc5</li>
-				</ul>
-			</description>
-		</release>
-		<release version="2.0.0-rc4" date="2022-03-02">
-			<description>
-				<ul>
-					<li>Updated to version 2 release candidate 4. github.com/arduino/arduino-ide/releases/tag/2.0.0-rc4</li>
-				</ul>
-			</description>
-		</release>
-		<release version="2.0.0-rc3" date="2021-12-22">
-			<description>
-				<ul>
-					<li>Updated to version 2 release candidate 3. github.com/arduino/arduino-ide/releases/tag/2.0.0-rc3</li>
 				</ul>
 			</description>
 		</release>
