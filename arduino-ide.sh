@@ -9,4 +9,4 @@ fi
 
 # I cracked zypak's secrets
 export ZYPAK_SPAWN_LATEST_ON_REEXEC=0
-env TMPDIR=$XDG_CACHE_HOME zypak-wrapper /app/arduino-ide/arduino-ide /app/arduino-ide/resources/app/src-gen/frontend/electron-main.js $FLAGS "$@"
+env TMPDIR=$XDG_CACHE_HOME zypak-wrapper /app/arduino-ide/arduino-ide /app/arduino-ide/resources/app/scripts/arduino-ide-electron-main.js $FLAGS "$@"
