@@ -35,6 +35,37 @@
 		</p>
 	</description>
 	<releases>
+		<release version="2.0.0-rc9.3" date="2022-09-05">
+			<description>
+				<ul>
+					<li>Added: Update translations (#1397, #1305)</li>
+					<li>Added: Filter Library and Boards Manager listings by category, type (#1361, #177)</li>
+					<li>Added: Updatable library and boards platform notifications, with "Update All" option (#1361, #1188)</li>
+					<li>Added: Communicate to user when upload is impossible due to no board selection (#1353, #845)</li>
+					<li>Added: Link compiler errors to editor (#1275, #118, arduino/Arduino#3383)</li>
+					<li>Changed: Make error message from compiling without board selected more user friendly (#1353, #62)</li>
+					<li>Changed: Remove File > Close Editor menu item (#1351, #660)</li>
+					<li>Changed: Close compilation/upload error notifications on subsequent actions (#1275, #1154)</li>
+					<li>Fixed: Ambiguous character check done inappropriately on "Output" panel text (#1375, #1210)</li>
+					<li>Fixed: "Built-in" libraries can have higher priority than platform bundled libraries (#1370, #1055)</li>
+					<li>Fixed: Incomplete Library and Boards Manager listings (#1361, #716)</li>
+					<li>Fixed: Hang during "Downloading index: ..." process (#1358, arduino/arduino-cli#1804, arduino/arduino-cli#1828, #1330)</li>
+					<li>Fixed: Incorrect mouseover graphic for dirty indicator (#1351, #1034, #647)</li>
+					<li>Fixed: Unnecessary save confirmation dialog when closing unmodified temporary sketch (#1351, #1274, #1026)</li>
+					<li>Fixed: Inconsistent save confirmation dialogs on exit (#1351, #1016)</li>
+					<li>Fixed: Save as native file dialog pops when enabling auto-save on a temp sketch (#1351, #994)</li>
+					<li>Fixed: Missing internationalization for UI strings (#1341)</li>
+					<li>Fixed: Missing port labels (#1335, #1331, #567)</li>
+					<li>Fixed: Failure of OTA upload to ESP8266 boards (#1335, #740)</li>
+					<li>Fixed: Network ports not shown in "Board Selector" menu (#1332, #1327)</li>
+					<li>Fixed: Multiple boards/ports shown as selected in "Board Selector" menu (#1328, #928)</li>
+					<li>Fixed: Incorrect port selection after upload to native USB board (#1328, #710, #287)</li>
+					<li>Fixed: Port changes when board is unplugged (#1328, #180)</li>
+					<li>Fixed: No auto-update offer when using a nightly build (#1326, #1318)</li>
+					<li>Fixed: Dialogs UI scalability (#1311, #1309)</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2.0.0-rc9.2" date="2022-08-10">
 			<description>
 				<ul>
