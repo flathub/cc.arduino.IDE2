@@ -136,8 +136,8 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/arduino/arduino-ide/releases/download/2.0.0-rc9.3/arduino-ide_2.0.0-rc9.3_Linux_64bit.zip",
-                    "sha256": "6f5b07c6f98da4b1c759f618584902fdd9c1d26821f8c08b2a2cc96b4e240e2a",
+                    "url": "https://github.com/arduino/arduino-ide/releases/download/2.0.0-rc9.4/arduino-ide_2.0.0-rc9.4_Linux_64bit.zip",
+                    "sha256": "1da2bda7da56dce0bba95f0d7b3dffd29f5f5659041adad6ce7c0cf460822874",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/arduino/arduino-ide/releases/latest",
