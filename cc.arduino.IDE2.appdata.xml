@@ -9,17 +9,19 @@
 
 	<description>
 		<p>
-            Arduino is an open-source electronics prototyping platform based
-            on flexible, easy-to-use hardware and software.  It's intended for
-            artists, designers, hobbyists, and anyone interested in creating
-            interactive objects or environments.
-        </p>
+            		Arduino is an open-source electronics prototyping platform based
+            		on flexible, easy-to-use hardware and software.  It's intended for
+            		artists, designers, hobbyists, and anyone interested in creating
+            		interactive objects or environments.
+		</p>
 		<p>
-            Included is an integrated development environment that can be used
-            to develop and upload code to compatible microcontrollers.
-        </p>
+            		Included is an integrated development environment that can be used
+            		to develop and upload code to compatible microcontrollers.
+        	</p>
 		<p>
-            This is version 2 of the Arduino IDE. Version 2 is currently still in beta.
+			The new major release of the Arduino IDE is faster and even more powerful! 
+			In addition to a more modern editor and a more responsive interface it features 
+			autocompletion, code navigation, and even a live debugger.
 		</p>
 		<p>
 			The Flatpak build of Arduino IDE 2.x requires the user to have USB permissions to upload a sketch, preferably, the user has to be part of the dialout group.
@@ -35,6 +37,13 @@
 		</p>
 	</description>
 	<releases>
+		<release version="2.0.0" date="2022-09-14">
+			<description>
+				<ul>
+					<li>The moment you (and us) all have been waiting for has arrived. Let's all welcome the official, stable release of Arduino IDE 2.0. This new IDE provides a modern user interface thanks to its responsive interface, as well as a completely overhauled backend supplied by the Arduino CLI. We hope you'll enjoy it as much as we enjoy bringing it to you. Yours truly, Arduino Team</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2.0.0-rc9.4" date="2022-09-08">
 			<description>
 				<ul>
