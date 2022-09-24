@@ -2,6 +2,8 @@
     "app-id": "cc.arduino.IDE2",
     "runtime": "org.freedesktop.Platform",
     "runtime-version": "22.08",
+    "base": "org.electronjs.Electron2.BaseApp",
+    "base-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "arduino-ide",
     "separate-locales": false,
@@ -143,21 +145,6 @@
                         "url": "https://api.github.com/repos/arduino/arduino-ide/releases/latest",
                         "version-query": ".tag_name | sub(\"^jq-\"; \"\")",
                         "url-query": ".assets[] | select(.name==\"arduino-ide_\" + $version + \"_Linux_64bit.zip\") | .browser_download_url"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "zypak",
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://github.com/refi64/zypak.git",
-                    "tag": "v2022.04",
-                    "commit": "55a60d110301e8dd37b631503c3524ab7baaf7aa",
-                    "x-checker-data": {
-                        "type": "git",
-                        "tag-pattern": "^v([\\d.]+)$"
                     }
                 }
             ]
