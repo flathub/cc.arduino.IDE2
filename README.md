@@ -31,4 +31,4 @@ This is also useful if you want to enable electron's (potentially experimental) 
 flatpak override --user --socket=wayland cc.arduino.IDE2
 flatpak override --user --env=CUSTOM_IDE_FLAGS="--enable-features=UseOzonePlatform --ozone-platform=wayland" cc.arduino.IDE2
 ```
-It is important to note that if you are experiencing issues with the IDE you MUST turn this off before submitting a bug report here or on the IDE's bug tracker as this functionality is not functionality supported.
+It is important to note that if you are experiencing issues with the IDE you MUST disable any custom flags you have before submitting a bug report here or on the IDE's bug tracker as this functionality is not officially supported.
