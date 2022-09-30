@@ -2,9 +2,12 @@
 
 FLAGS=''
 
-if [[ $XDG_SESSION_TYPE == "wayland" ]] && [ -c /dev/nvidia0 ]
-then
-    FLAGS="$FLAGS --disable-gpu-sandbox"
+if [[ $XDG_SESSION_TYPE == "wayland" ]]; then
+    if [ -c /dev/nvidia0 ]; then
+        FLAGS="$FLAGS --disable-gpu-sandbox"
+    elif [ -S "$XDG_RUNTIME_DIR/$WAYLAND_DISPLAY" ]; then
+        FLAGS="$FLAGS --enable-features=UseOzonePlatform --ozone-platform=wayland"
+    fi
 fi
 
 # I cracked zypak's secrets
