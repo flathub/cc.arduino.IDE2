@@ -19,7 +19,16 @@ Any arguments passed to the flatpak run command will be passed to the IDE i.e.
 flatpak run cc.arduino.IDE2 --log-level=warn
 ```
 which only displays warning or above in the log output to the console.
-If you like to pass certain flags permanently, you can add them to the `ELECTRON_FLAGS` environment variable:
+
+## Adding permanent custom flags to the IDE
+If you need to always start the IDE with custom arguments then the best way to do this is to use `flatpak override`.
+For example:
 ``` sh
-flatpak override --user --env=ELECTRON_FLAGS="--log-level=warn" cc.arduino.IDE2
+flatpak override --user --env=CUSTOM_IDE_FLAGS="--log-level=warn" cc.arduino.IDE2
 ```
+This is also useful if you want to enable electron's (potentially experimental) wayland support:
+``` sh
+flatpak override --user --socket=wayland cc.arduino.IDE2
+flatpak override --user --env=CUSTOM_IDE_FLAGS="--enable-features=UseOzonePlatform --ozone-platform=wayland" cc.arduino.IDE2
+```
+It is important to note that if you are experiencing issues with the IDE you MUST turn this off before submitting a bug report here or on the IDE's bug tracker as this functionality is not functionality supported.
