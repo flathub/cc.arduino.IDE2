@@ -2,7 +2,7 @@
 
 Flatpak build of [Arduino IDE 2.x](https://github.com/arduino/arduino-ide). To run the
 app you need USB permissions, preferably, the user has to be part of the
-`dialout` group. Alternatively, add 
+`dialout` group. Alternatively, add
 ``` sh
 KERNEL=="ttyUSB[0-9]*",MODE="0666"
 KERNEL=="ttyACM[0-9]*",MODE="0666"
@@ -19,3 +19,7 @@ Any arguments passed to the flatpak run command will be passed to the IDE i.e.
 flatpak run cc.arduino.IDE2 --log-level=warn
 ```
 which only displays warning or above in the log output to the console.
+If you like to pass certain flags permanently, you can add them to the `ELECTRON_FLAGS` environment variable:
+``` sh
+flatpak override --user --env=ELECTRON_FLAGS="--log-level=warn" cc.arduino.IDE2
+```
