@@ -37,7 +37,50 @@
 		</p>
 	</description>
 	<releases>
-		<release version="2.0.1" date="2022-10-27"/>
+		<release version="2.0.1" date="2022-10-27">
+			<description>
+				<ul>
+					<li>Added: Make links to Boards Manager and Library Manager clickable inside the sketch (#1442)</li>
+					<li>Added: Message history in Serial Monitor (#1404)</li>
+					<li>Added: Create a custom sketch template for new sketches (#1559)</li>
+					<li>Added: Add a project contributor guide (#1419)</li>
+					<li>Changed: Can send message to the monitor with Enter (#572)</li>
+					<li>Changed: Show user fields dialog again if upload fails (#1386)</li>
+					<li>Changed: Update translation files (#1462)</li>
+					<li>Changed: Put Arduino libs on top of the Library Manager (#1541)</li>
+					<li>Changed: Changed the daemon output from json to text (#1544)</li>
+					<li>Changed: Make the "INSTALL" button always visible in Boards Manager and Library Manager (#1568)</li>
+					<li>Fixed: Occasional "Unable to watch for file changes in this large workspace" warnings (#39)</li>
+					<li>Fixed: Label of unidentified port missing in "Board Selector" after opening new window (#1383)</li>
+					<li>Fixed: Bring existing Serial Plotter window to foreground when selected from IDE UI (#1346)</li>
+					<li>Fixed: UI unresponsive when sketch has a very long line (#1343)</li>
+					<li>Fixed: Align the primary button in all dialogs in IDE (#1368)</li>
+					<li>Fixed: Serial Monitor autoscroll only makes bottom line partially visible (#972)</li>
+					<li>Fixed: Dialogs UI scalability - Unexpected dialog layouts (#1350)</li>
+					<li>Fixed: Color contrast in the Firmware Updater dialog with the dark theme (#1441)</li>
+					<li>Fixed: Sketchbook folder not created on startup (#1445)</li>
+					<li>Fixed: 3rd party URLs dialog should not wrap text (#1470)</li>
+					<li>Fixed: Keyboard bindings do not work properly after change to different keyboard layouts (#989)</li>
+					<li>Fixed: Add missing translations (#1431)</li>
+					<li>Fixed: Spurious IDE update notifications when using snapshot or nightly builds (#1440)</li>
+					<li>Fixed: "Check for Arduino IDE Updates" operation fails when automatic update checks are disabled (#1437)</li>
+					<li>Fixed: Avoid intellisense widgets being covered by the bottom panel (#1479)</li>
+					<li>Fixed: When opening a dialog, set the focus inside it (#1373)</li>
+					<li>Fixed: Attempt to open deleted sketch from Sketchbook or Examples menus fails silently (#53)</li>
+					<li>Fixed: Serial Plotter requires \r\n line endings (#1360)</li>
+					<li>Fixed: IDE is non-functional if package index can't be loaded (#1084)</li>
+					<li>Fixed: Only package indexes should updated after changing the "Additional Boards Manager URL" preference. (#1156)</li>
+					<li>Fixed: Application allows setting interface scaling interface past limits (#1384)</li>
+					<li>Fixed: Parts of the UI disappear when window is to small (#662 #1515)</li>
+					<li>Fixed: Incorrect spacing of the horizontal rules in the editor hover (#1503)</li>
+					<li>Fixed: Sort Board selection menus like as described in the platform's boards.txt configuration file (#802)</li>
+					<li>Fixed: Intermittent failure to recognize ports (#573)</li>
+					<li>Fixed: The style of the buttons in the library installation dialog break when the labels are too long (#1314)</li>
+					<li>Fixed: Uploading disabled without port selection (#702 #770)</li>
+					<li>Fixed: Opening invalid sketch via file association/command line fails silently (#964)</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2.0.0" date="2022-09-14">
 			<description>
 				<ul>
