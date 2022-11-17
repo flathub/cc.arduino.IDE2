@@ -9,15 +9,15 @@
 
 	<description>
 		<p>
-            		Arduino is an open-source electronics prototyping platform based
-            		on flexible, easy-to-use hardware and software.  It's intended for
-            		artists, designers, hobbyists, and anyone interested in creating
-            		interactive objects or environments.
+			Arduino is an open-source electronics prototyping platform based
+			on flexible, easy-to-use hardware and software.  It's intended for
+			artists, designers, hobbyists, and anyone interested in creating
+			interactive objects or environments.
 		</p>
 		<p>
-            		Included is an integrated development environment that can be used
-            		to develop and upload code to compatible microcontrollers.
-        	</p>
+			Included is an integrated development environment that can be used
+			to develop and upload code to compatible microcontrollers.
+		</p>
 		<p>
 			The new major release of the Arduino IDE is faster and even more powerful! 
 			In addition to a more modern editor and a more responsive interface it features 
