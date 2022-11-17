@@ -9,15 +9,15 @@
 
 	<description>
 		<p>
-            		Arduino is an open-source electronics prototyping platform based
-            		on flexible, easy-to-use hardware and software.  It's intended for
-            		artists, designers, hobbyists, and anyone interested in creating
-            		interactive objects or environments.
+			Arduino is an open-source electronics prototyping platform based
+			on flexible, easy-to-use hardware and software.  It's intended for
+			artists, designers, hobbyists, and anyone interested in creating
+			interactive objects or environments.
 		</p>
 		<p>
-            		Included is an integrated development environment that can be used
-            		to develop and upload code to compatible microcontrollers.
-        	</p>
+			Included is an integrated development environment that can be used
+			to develop and upload code to compatible microcontrollers.
+		</p>
 		<p>
 			The new major release of the Arduino IDE is faster and even more powerful! 
 			In addition to a more modern editor and a more responsive interface it features 
@@ -37,6 +37,29 @@
 		</p>
 	</description>
 	<releases>
+		<release version="2.0.2" date="2022-11-17">
+			<description>
+				<p>
+					Added:
+				</p>
+				<ul>
+					<li>Build IDE2 on darwin arm64 (#1577)</li>
+					<li>Create remote sketch (#1580)</li>
+				</ul>
+				<p>
+					Fixed:
+				</p>
+				<ul>
+					<li>Spurious IDE update notifications when using snapshot or nightly builds (#1440)</li>
+					<li>Autoformat removes new-line before EOF (#1487)</li>
+					<li>"Open Recent" menu missing after recent sketch is deleted (#1596)</li>
+					<li>Additional sketches can't be opened via file association/command line argument (#1590)</li>
+					<li>"Built-in" examples fail to open with Linux AppImage (#1586)</li>
+					<li>"Sketchbook" menu missing if sketch name is invalid regex (#1600)</li>
+					<li>First time load of project with many files very slow (#1612)</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2.0.1" date="2022-10-27">
 			<description>
 				<ul>
