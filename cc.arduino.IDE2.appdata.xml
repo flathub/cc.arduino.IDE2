@@ -37,6 +37,37 @@
 		</p>
 	</description>
 	<releases>
+		<release version="2.0.3" date="2022-12-05">
+			<description>
+				<p>
+					Changed:
+				</p>
+				<ul>
+					<li>Switched from arduino.window.zoomLevel to window.zoomLevel preference (#1675)</li>
+					<li>Update Cortex-Debug to recent version (#246)</li>
+				</ul>
+				<p>
+					Fixed:
+				</p>
+				<ul>
+					<li>Fix editor widget resolving when creating new tab (#1718)</li>
+					<li>Fix keybindings to switch between tabs on MacOs (#1685)</li>
+					<li>Other ino files are not reflected in the window title (#1656)</li>
+					<li>Debugger does not disconnect after stopping it (#995)</li>
+					<li>Scrollbar covers bottom line of Serial Monitor output (#1602)</li>
+					<li>Problem leaving "focus" mode (#1550)</li>
+					<li>editor.hover.delay setting not used by new windows (#571)</li>
+					<li>Window title changes to "index.html" during reload (#999)</li>
+					<li>Missing translation in Theia's view-container context menu (#1498)</li>
+					<li>Indentation guides are always visible (#1613)</li>
+					<li>Rightmost tab is selected by default (#643)</li>
+					<li>Selecting "New Remote Sketch" from File menu has no effect if "Remote Sketchbook" widget is not open (#1715)</li>
+					<li>Serial Monitor sends spurious data (#375)</li>
+					<li>Unable to start debugger when watch expressions are configured (#1582)</li>
+					<li>Conditional breakpoint only stops the first time (#268)</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2.0.2" date="2022-11-17">
 			<description>
 				<p>
