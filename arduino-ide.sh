@@ -7,4 +7,4 @@ fi
 
 # I cracked zypak's secrets
 export ZYPAK_SPAWN_LATEST_ON_REEXEC=0
-env TMPDIR=$XDG_CACHE_HOME zypak-wrapper /app/arduino-ide/arduino-ide --app-project-path /app/arduino-ide/resources/app/ $CUSTOM_IDE_FLAGS "$@"
+env TMPDIR=$XDG_CACHE_HOME zypak-wrapper /app/arduino-ide/arduino-ide $CUSTOM_IDE_FLAGS "$@"
