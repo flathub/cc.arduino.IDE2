@@ -37,7 +37,63 @@
 		</p>
 	</description>
 	<releases>
-		<release version="2.0.4" date="2023-02-27"/>
+		<release version="2.0.4" date="2023-02-27">
+			<description>
+				<p>
+					Added:
+				</p>
+				<ul>
+					<li>Enable rename and delete of Cloud sketches (#1825)</li>
+					<li>Add activity bar icon for Arduino Cloud login (#1877)</li>
+					<li>Add support for macOS notarization during local builds (#1916)</li>
+				</ul>
+				<p>
+					Changed:
+				</p>
+				<ul>
+					<li>Show custom board option settings in Tools menu (#343)</li>
+					<li>Use a local npm registry for app packaging (#1757)</li>
+					<li>Always show File > Sketchbook menu item (#569)</li>
+					<li>Always show Tools > Port menu item (#655)</li>
+					<li>Use more efficient method to get Arduino CLI version (#1572)</li>
+					<li>Remove encoding from status bar (#1393)</li>
+					<li>Allow addition of existing code files to sketch (#284)</li>
+					<li>Communicate cause of debugger not starting with uncompiled sketch (#808)</li>
+					<li>Add leading+trailing line break to "Copy for Forum" content (#1859)</li>
+					<li>Improve contrast of cursor color in "Dark (Arduino)" theme (#1251)</li>
+					<li>Improve contrast of "Output" view stderr text in "Light (Arduino)" theme (#1087)</li>
+					<li>Bump Arduino CLI to 0.31.0 (#1921)</li>
+					<li>Use hardwareId for board auto-selection (#1913)</li>
+					<li>Update translations (#1763)</li>
+				</ul>
+				<p>
+					Fixed:
+				</p>
+				<ul>
+					<li>Fix File > Preferences disabled if dialog used soon after IDE startup (#1735)</li>
+					<li>Prevent opening of multiple "Preferences" dialog instances (#1735)</li>
+					<li>Fix support for user-installed theme extensions (#1742)</li>
+					<li>Always set "Updatable" filter when Boards Manager/Library Manager opened from update offer dialog (#1740)</li>
+					<li>Fix corruption of multi-byte UTF-8 symbols in Serial Monitor (#589)</li>
+					<li>Fix Sketch > Upload/Upload Using Programmer menu items remaining disabled after completion of upload (#1722)</li>
+					<li>Fix proxy protocol incorrectly shown as "SOCKS" in "Preferences" dialog (#1775)</li>
+					<li>Fix support for SOCKS5 proxy protocol (#1769)</li>
+					<li>Fix IDE startup hang if sketchbook folder location not accessible (#1764)</li>
+					<li>Update affected UI elements after "Sketchbook location" preference change (#796)</li>
+					<li>Update affected UI elements after "Add .ZIP Library..." operation (#659)</li>
+					<li>Restart language server after change to platform or library (#670)</li>
+					<li>Support IDE installation paths that contain # (#1124)</li>
+					<li>Pass custom board option settings to language server (#1029)</li>
+					<li>Make File > Sketchbook menu reflect sketchbook folder structure (#1185)</li>
+					<li>Populate "Board Info" dialog from port data (#1489)</li>
+					<li>Use established sort order in Boards Manager and Library Manager listings (#1106)</li>
+					<li>Prevent creation of sketches with non-compliant names (#1599)</li>
+					<li>Correct handling of primary sketch tab deletion (#649)</li>
+					<li>Fix missing toolbar context menu items when editor doesn't have focus (#1847)</li>
+					<li>Fix unexpected sketch deletion when location inside sketch folder selected as rename target (#1882)</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2.0.3" date="2022-12-05">
 			<description>
 				<p>
