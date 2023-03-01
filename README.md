@@ -1,7 +1,10 @@
 # Arduino IDE 2.x Flatpak
 
-Flatpak build of [Arduino IDE 2.x](https://github.com/arduino/arduino-ide). To run the
-app you need USB permissions, preferably, the user has to be part of the
+Flatpak build of [Arduino IDE 2.x](https://github.com/arduino/arduino-ide).  <br />
+Please report ALL issues for the IDE here (assuming you have installed the Flathub release).<br>
+For more information see: https://github.com/flathub/cc.arduino.IDE2/issues/35.
+
+To run the app you need USB permissions, preferably, the user has to be part of the
 `dialout` group. Alternatively, add:
 ``` sh
 KERNEL=="ttyUSB[0-9]*",MODE="0666"

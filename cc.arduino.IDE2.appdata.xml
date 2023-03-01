@@ -9,6 +9,11 @@
 
 	<description>
 		<p>
+			NOTE: This wrapper is not verified by, affiliated with, or supported by Arduino. <br />
+			Arduino do not offer official support for the Flatpak wrapper, and so to offer the best support and experience for the Flatpak wrapper please report ALL issues at the Flathub issue tracker (linked by the issue button/link on this page). <br />
+			This allows with issues to be dealt with correctly. For more info press the issues button/link on this page.
+		</p>
+		<p>
 			Arduino is an open-source electronics prototyping platform based
 			on flexible, easy-to-use hardware and software.  It's intended for
 			artists, designers, hobbyists, and anyone interested in creating
@@ -210,7 +215,7 @@
 
 	<url type="homepage">http://www.arduino.cc/</url>
 	<url type="help">https://docs.arduino.cc/software/ide-v2</url>
-	<url type="bugtracker">https://github.com/arduino/arduino-ide/issues</url>
+	<url type="bugtracker">https://github.com/flathub/cc.arduino.IDE2/issues/35</url>
 	<url type="translate">https://www.transifex.com/arduino-1/ide2/</url>
 	<url type="donation">https://www.arduino.cc/en/donate/</url>
 	<content_rating type="oars-1.0"/>
