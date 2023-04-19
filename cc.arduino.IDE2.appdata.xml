@@ -42,7 +42,63 @@
 		</p>
 	</description>
 	<releases>
-		<release version="2.1.0" date="2023-04-19"/>
+		<release version="2.1.0" date="2023-04-19">
+			<description>
+				<p>
+					Added:
+				</p>
+				<ul>
+					<li>Allow leading underscore in sketch filenames (#1955)</li>
+					<li>Open library examples from Library Manager (#1927)</li>
+					<li>Pull and Push icons on editor toolbar when Cloud sketch is open (#1899)</li>
+					<li>Use icons to indicate pulled state of Cloud sketches in sketchbook list (#1879)</li>
+					<li>Show "[Cloud]" indicator in title of windows with Cloud sketch open (#1878)</li>
+					<li>Support pushing local sketches to Arduino Cloud (#1876)</li>
+				</ul>
+				<p>
+					Changed:
+				</p>
+				<ul>
+					<li>Base Boards/Library Manager button text on library installation state (#1607)</li>
+					<li>Make Boards/Library Manager uninstall interface easier to find (#19)</li>
+					<li>Default Boards/Library Manager version menu selection to latest (#1924)</li>
+					<li>Improve performance of Library Manager search (#1949)</li>
+					<li>Refocus Serial Monitor after verify/upload (#1979)</li>
+					<li>Indicate theme type in Preferences menu (#1994)</li>
+					<li>Update Arduino CLI dependency to 0.32.2 (#1996)</li>
+				</ul>
+				<p>
+					Removed:
+				</p>
+				<ul>
+					<li>Don't offer deprecated themes in Preferences dialog (#1283)</li>
+				</ul>
+				<p>
+					Fixed:
+				</p>
+				<ul>
+					<li>Fix Sketchbook view scroll position reverting when selected item scrolled off screen (#1766)</li>
+					<li>Fix corruption of multibyte characters in pulled Cloud sketch (#449)</li>
+					<li>Fix IDE crash when pushing Cloud sketch (#634)</li>
+					<li>Fix incomplete scroll in Serial Monitor after autoscroll enabled (#1736)</li>
+					<li>Fix Serial Monitor autoscroll not done for content received when view not in focus (#1724)</li>
+					<li>Fix incomplete JSONC support for settings.json (#1945)</li>
+					<li>Fix startup fails when arduino.cli.daemon.debug setting enabled (#1942)</li>
+					<li>Fix Library Manager version menu change after closure of dependencies installation dialog (#1707)</li>
+					<li>Fix Boards/Library Manager entry clipping (#1591)</li>
+					<li>Don't offer installation of already installed release in Boards/Library Manager (#781)</li>
+					<li>Focus the search field when Boards/Library Manager is opened (#1941)</li>
+					<li>Support using debugger with boards platforms installed under non-default data directory location (#1911)</li>
+					<li>Fix editor cursor randomly jumping to beginning of line (#437)</li>
+					<li>Fix duplicated editor tabs (#1791)</li>
+					<li>Focus button in Sketchbook view instead of view container (#1978)</li>
+					<li>Show error when monitor process creation fails (#1508)</li>
+					<li>Always update themeId settings after theme change (#1988)</li>
+					<li>Use appropriate location for manual extension installation folder (#1851)</li>
+					<li>Always add #include directive for arduino_secrets.h when pulling Cloud sketches with secrets (#1999)</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2.0.4" date="2023-02-27">
 			<description>
 				<p>
