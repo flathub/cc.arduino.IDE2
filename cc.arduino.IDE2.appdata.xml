@@ -9,8 +9,8 @@
 
 	<description>
 		<p>
-			NOTE: This wrapper is not verified by, affiliated with, or supported by Arduino. <br />
-			Arduino do not offer official support for the Flatpak wrapper, and so to offer the best support and experience for the Flatpak wrapper please report ALL issues at the Flathub issue tracker (linked by the issue button/link on this page). <br />
+			NOTE: This wrapper is not verified by, affiliated with, or supported by Arduino. <br/>
+			Arduino do not offer official support for the Flatpak wrapper, and so to offer the best support and experience for the Flatpak wrapper please report ALL issues at the Flathub issue tracker (linked by the issue button/link on this page). <br/>
 			This allows with issues to be dealt with correctly. For more info press the issues button/link on this page.
 		</p>
 		<p>
@@ -42,6 +42,63 @@
 		</p>
 	</description>
 	<releases>
+		<release version="2.1.0" date="2023-04-19">
+			<description>
+				<p>
+					Added:
+				</p>
+				<ul>
+					<li>Allow leading underscore in sketch filenames (#1955)</li>
+					<li>Open library examples from Library Manager (#1927)</li>
+					<li>Pull and Push icons on editor toolbar when Cloud sketch is open (#1899)</li>
+					<li>Use icons to indicate pulled state of Cloud sketches in sketchbook list (#1879)</li>
+					<li>Show "[Cloud]" indicator in title of windows with Cloud sketch open (#1878)</li>
+					<li>Support pushing local sketches to Arduino Cloud (#1876)</li>
+				</ul>
+				<p>
+					Changed:
+				</p>
+				<ul>
+					<li>Base Boards/Library Manager button text on library installation state (#1607)</li>
+					<li>Make Boards/Library Manager uninstall interface easier to find (#19)</li>
+					<li>Default Boards/Library Manager version menu selection to latest (#1924)</li>
+					<li>Improve performance of Library Manager search (#1949)</li>
+					<li>Refocus Serial Monitor after verify/upload (#1979)</li>
+					<li>Indicate theme type in Preferences menu (#1994)</li>
+					<li>Update Arduino CLI dependency to 0.32.2 (#1996)</li>
+				</ul>
+				<p>
+					Removed:
+				</p>
+				<ul>
+					<li>Don't offer deprecated themes in Preferences dialog (#1283)</li>
+				</ul>
+				<p>
+					Fixed:
+				</p>
+				<ul>
+					<li>Fix Sketchbook view scroll position reverting when selected item scrolled off screen (#1766)</li>
+					<li>Fix corruption of multibyte characters in pulled Cloud sketch (#449)</li>
+					<li>Fix IDE crash when pushing Cloud sketch (#634)</li>
+					<li>Fix incomplete scroll in Serial Monitor after autoscroll enabled (#1736)</li>
+					<li>Fix Serial Monitor autoscroll not done for content received when view not in focus (#1724)</li>
+					<li>Fix incomplete JSONC support for settings.json (#1945)</li>
+					<li>Fix startup fails when arduino.cli.daemon.debug setting enabled (#1942)</li>
+					<li>Fix Library Manager version menu change after closure of dependencies installation dialog (#1707)</li>
+					<li>Fix Boards/Library Manager entry clipping (#1591)</li>
+					<li>Don't offer installation of already installed release in Boards/Library Manager (#781)</li>
+					<li>Focus the search field when Boards/Library Manager is opened (#1941)</li>
+					<li>Support using debugger with boards platforms installed under non-default data directory location (#1911)</li>
+					<li>Fix editor cursor randomly jumping to beginning of line (#437)</li>
+					<li>Fix duplicated editor tabs (#1791)</li>
+					<li>Focus button in Sketchbook view instead of view container (#1978)</li>
+					<li>Show error when monitor process creation fails (#1508)</li>
+					<li>Always update themeId settings after theme change (#1988)</li>
+					<li>Use appropriate location for manual extension installation folder (#1851)</li>
+					<li>Always add #include directive for arduino_secrets.h when pulling Cloud sketches with secrets (#1999)</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2.0.4" date="2023-02-27">
 			<description>
 				<p>
@@ -58,8 +115,8 @@
 				<ul>
 					<li>Show custom board option settings in Tools menu (#343)</li>
 					<li>Use a local npm registry for app packaging (#1757)</li>
-					<li>Always show File > Sketchbook menu item (#569)</li>
-					<li>Always show Tools > Port menu item (#655)</li>
+					<li>Always show File &gt; Sketchbook menu item (#569)</li>
+					<li>Always show Tools &gt; Port menu item (#655)</li>
 					<li>Use more efficient method to get Arduino CLI version (#1572)</li>
 					<li>Remove encoding from status bar (#1393)</li>
 					<li>Allow addition of existing code files to sketch (#284)</li>
@@ -75,12 +132,12 @@
 					Fixed:
 				</p>
 				<ul>
-					<li>Fix File > Preferences disabled if dialog used soon after IDE startup (#1735)</li>
+					<li>Fix File &gt; Preferences disabled if dialog used soon after IDE startup (#1735)</li>
 					<li>Prevent opening of multiple "Preferences" dialog instances (#1735)</li>
 					<li>Fix support for user-installed theme extensions (#1742)</li>
 					<li>Always set "Updatable" filter when Boards Manager/Library Manager opened from update offer dialog (#1740)</li>
 					<li>Fix corruption of multi-byte UTF-8 symbols in Serial Monitor (#589)</li>
-					<li>Fix Sketch > Upload/Upload Using Programmer menu items remaining disabled after completion of upload (#1722)</li>
+					<li>Fix Sketch &gt; Upload/Upload Using Programmer menu items remaining disabled after completion of upload (#1722)</li>
 					<li>Fix proxy protocol incorrectly shown as "SOCKS" in "Preferences" dialog (#1775)</li>
 					<li>Fix support for SOCKS5 proxy protocol (#1769)</li>
 					<li>Fix IDE startup hang if sketchbook folder location not accessible (#1764)</li>
@@ -89,7 +146,7 @@
 					<li>Restart language server after change to platform or library (#670)</li>
 					<li>Support IDE installation paths that contain # (#1124)</li>
 					<li>Pass custom board option settings to language server (#1029)</li>
-					<li>Make File > Sketchbook menu reflect sketchbook folder structure (#1185)</li>
+					<li>Make File &gt; Sketchbook menu reflect sketchbook folder structure (#1185)</li>
 					<li>Populate "Board Info" dialog from port data (#1489)</li>
 					<li>Use established sort order in Boards Manager and Library Manager listings (#1106)</li>
 					<li>Prevent creation of sketches with non-compliant names (#1599)</li>
