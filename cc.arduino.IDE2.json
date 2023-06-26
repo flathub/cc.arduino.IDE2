@@ -92,7 +92,7 @@
                     "sha256": "bb4d8133cb15a609f44e8213d9b391b0809795062913b383c62be0ee95b1db48",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "pyserial",
+                        "name": "click",
                         "packagetype": "bdist_wheel"
                     }
                 }
@@ -111,7 +111,7 @@
                     "sha256": "80600258e7ed2f16b9aa1d7c295bd70194109ad5a30fdee0eaeefef1d4c559dd",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "pyserial",
+                        "name": "ecdsa",
                         "packagetype": "bdist_wheel"
                     }
                 }
@@ -130,7 +130,7 @@
                     "sha256": "b72103dc8e50f92951f512fc2b6f2c621dac1614531ddf8c0be3b13d020e24ad",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "pyserial",
+                        "name": "adafruit-nrfutil",
                         "packagetype": "sdist"
                     }
                 }
