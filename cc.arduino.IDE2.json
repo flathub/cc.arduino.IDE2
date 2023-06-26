@@ -131,7 +131,7 @@
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "pyserial",
-                        "packagetype": "source"
+                        "packagetype": "sdist"
                     }
                 }
             ]
