@@ -42,6 +42,16 @@
 		</p>
 	</description>
 	<releases>
+		<release version="2.1.1" date="2023-06-30">
+			<description>
+				<p>
+					Fixed:
+				</p>
+				<ul>
+					<li>Update Arduino CLI dependency to 0.32.2 to fix arduino/ArduinoCore-renesas#10 (#2121)</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2.1.0" date="2023-04-19">
 			<description>
 				<p>
