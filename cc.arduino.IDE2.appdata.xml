@@ -42,7 +42,65 @@
 		</p>
 	</description>
 	<releases>
-		<release version="2.2.0" date="2023-08-29"/>
+		<release version="2.2.0" date="2023-08-29">
+			<description>
+				<ul>
+                    <li>fix: name of translation (UA) module [06ad7d1]</li>
+                    <li>Updated translation files [b78c462]</li>
+                    <li>fix: missing app icon for AppImage on Linux (#2190) [e08439b]</li>
+                    <li>chore: bump the version to 2.2.0 [e03e5eb]</li>
+                    <li>chore(deps): Use arduino-cli@0.34.0 [b723951]</li>
+                    <li>chore(deps): Use arduino-fwuploader@2.4.0 [ea2c54b]</li>
+                    <li>fix: falsy context menu handlerId [5fd02b9]</li>
+                    <li>Generalize name of "Firmware Updater" [10b3882]</li>
+                    <li>Do full run of "Arduino IDE" workflow on tag push [ea91904]</li>
+                    <li>fix: do not start obsolete daemon watcher process [57fa18b]</li>
+                    <li>fix: execute the Arduino CLI without a shell [2aae9e0]</li>
+                    <li>fix: incorrect certificate flashing command string (#2181) [9a99957]</li>
+                    <li>fix: handle UNKNOWN code on syscall: 'stat' [b256655]</li>
+                    <li>chore(cli): pin version to 0.34.0-rc.1 [420d31f]</li>
+                    <li>fix: expand boards if available on detected port [db01efe]</li>
+                    <li>build(deps): Bump svenstaro/upload-release-action from 2.6.1 to 2.7.0 [5a76be3]</li>
+                    <li>feat: simplify board and port handling (#2165) [69ae38e]</li>
+                    <li>chore(deps): Updated to Theia 1.39.0 (#2144) [9a6a457]</li>
+                    <li>Clean localization data files before pulling from Transifex [144df89]</li>
+                    <li>Add 中文(繁體) ("Chinese (Traditional)") localization (#2151) [e17472e]</li>
+                    <li>feat: can dock the monitor widget to the "right" [f6a4325]</li>
+                    <li>fix: include all log args in the log message [94d2962]</li>
+                    <li>chore(version): updated the version to 2.1.2 [95fdc59]</li>
+                    <li>fix(terminal): split-terminal visibility [954fee4]</li>
+                    <li>fix(terminal): widget flickering on resize [0bcb182]</li>
+                    <li>feat: expose Arduino state to VS Code extensions [42d017e]</li>
+                    <li>chore(cli): Bumped the CLI version to 0.33.1 [c66b720]</li>
+                    <li>Revert "Revert "chore(cli): Bumped the CLI version to 0.33.0"" [a5c9735]</li>
+                    <li>Adjust release procedure and CI system for "trunk-based" development strategy [6e18dca]</li>
+                    <li>chore(cli): Bumped the CLI version to 0.32.3 [f3b99b0]</li>
+                    <li>Revert "chore(cli): Bumped the CLI version to 0.33.0" [d0bce15]</li>
+                    <li>add linux-arm64 to download-ls (#2078) [d79bc0d]</li>
+                    <li>fix: warn user when IDE cannot save the sketch [8f8b46f]</li>
+                    <li>build(deps): Bump svenstaro/upload-release-action from 2.5.0 to 2.6.1 [d1fa6d4]</li>
+                    <li>fix: relaxed saveAll if no Internet connection [4af488b]</li>
+                    <li>fix: omit port from upload request when not set [db0049d]</li>
+                    <li>chore(cli): Bumped the CLI version to 0.33.0 [0fbd1fb]</li>
+                    <li>fix: removed unsafe shell when executing process [9d2297c]</li>
+                    <li>fix: remove setting unsafe innerHTML [e47fb2e]</li>
+                    <li>fix: show no errors if users cancel lib install [ee43a12]</li>
+                    <li>test: use raw core index-update for the tests [31deeeb]</li>
+                    <li>fix: do not enqueue write operations on conflict [117b2a4]</li>
+                    <li>fix: show notification if lib/core install failed [278dd4b]</li>
+                    <li>build: use execa for the packager [36e2092]</li>
+                    <li>build: use execFileSync for npm scripts [33ab2a6]</li>
+                    <li>chore: updated to Theia 1.37.0 [192aac5]</li>
+                    <li>fix: copy when punctuation marks in sketch path [964ea3b]</li>
+                    <li>fix: do not exclude cloud sketch diagnostics [e6828f8]</li>
+                    <li>test: gRPC core client init integration test [51f69f6]</li>
+                    <li>fix: reduced unnecessary GET /sketches request [097c92d]</li>
+                    <li>Corrected library.properties assignment w.r.t description and summary [b451e2d]</li>
+                    <li>Document 3rd party theme installation in "Advanced Usage" [b3b9494]</li>
+                    <li>chore: Updated to the next version after release. [80afd38]</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2.1.1" date="2023-06-30">
 			<description>
 				<p>
