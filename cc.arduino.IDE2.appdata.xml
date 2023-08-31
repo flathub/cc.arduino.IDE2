@@ -42,7 +42,22 @@
 		</p>
 	</description>
 	<releases>
-		<release version="2.2.1" date="2023-08-31"/>
+		<release version="2.2.1" date="2023-08-31">
+			<description>
+				<p>
+					Changed:
+				</p>
+				<ul>
+					<li>Bump Arduino Firmware Uploader dependency to 2.4.1 (#2206)</li>
+				</ul>
+				<p>
+					Fixed:
+				</p>
+				<ul>
+					<li>Fix missing translations for русский and Türkçe (#2201)</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2.2.0" date="2023-08-29">
 			<description>
 				<ul>
