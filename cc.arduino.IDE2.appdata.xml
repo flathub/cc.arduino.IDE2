@@ -14,7 +14,7 @@
 			This allows with issues to be dealt with correctly. For more info press the issues button/link on this page.
 		</p>
 		<p>
-			If you would like to limit the app's filesystem access, please see https://github.com/flathub/cc.arduino.IDE2/blob/master/limit-filesystem-access.md
+			If you would like to limit the app's filesystem access and avoid cluttered configuration files, please see https://github.com/flathub/cc.arduino.IDE2/blob/master/limit-filesystem-access.md
 		</p>
 		<p>
 			Arduino is an open-source electronics prototyping platform based
