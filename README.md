@@ -12,6 +12,9 @@ KERNEL=="ttyACM[0-9]*",MODE="0666"
 ```
 to `/etc/udev/rules.d/50-arduino.rules`.
 
+## Changing sketchbook location
+See [here](./sketchbook-location.md)
+
 ## Running from console
 If you are running the application from the console (you might need to do this to view the application's log while it is being used), run it using the `flatpak run` command:
 ``` sh
