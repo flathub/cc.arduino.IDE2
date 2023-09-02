@@ -12,7 +12,7 @@ KERNEL=="ttyACM[0-9]*",MODE="0666"
 ```
 to `/etc/udev/rules.d/50-arduino.rules`.
 
-### Limit filesystem access
+## Limit filesystem access
 See [here](limit-filesystem-access.md).
 
 ## Running from console
