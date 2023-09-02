@@ -5,7 +5,7 @@
    If possible, append `:ro` to keep access to sketch directories where you don't intend to modify read-only.
    ![Filesystem options](https://imgur.com/BSI46Lj.png)
 
-3. Add `.arduinoIDE` and `.arduino15` to the `Persistent` section.
+3. Add `.arduinoIDE` and `.arduino15` to the `Persistent` section.<br/>
    ![Persistent options](https://imgur.com/S7jR238.png)
 
 4. (Optional) Move the `~/.arduinoIDE` and `~/arduino15` folders to `~/var/app/cc.arduino.IDE2`.
