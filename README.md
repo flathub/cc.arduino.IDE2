@@ -13,7 +13,7 @@ KERNEL=="ttyACM[0-9]*",MODE="0666"
 to `/etc/udev/rules.d/50-arduino.rules`.
 
 ## Limit filesystem access
-See [here](limit-filesystem-access.md).
+By default, Arduino has access to your entire home directory and places `.arduino` dotfolders in it. See [here](limit-filesystem-access.md) to limit this access and prevent dotfolder cluttering.
 
 ## Running from console
 If you are running the application from the console (you might need to do this to view the application's log while it is being used), run it using the `flatpak run` command:
