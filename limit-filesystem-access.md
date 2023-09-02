@@ -1,7 +1,7 @@
 1. Install [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal)
 
 2. Open `Arduino IDE V2`'s entry on Flatseal and scroll down to the `Other files` setting under the `Filesystem` section. Add the directory/directories where you want to access sketches from.<br/>
-   [XDG directories](https://docs.flatpak.org/en/latest/sandbox-permissions-reference.html#filesystem-permissions) are supported (and recommended).<br/>
+   [XDG directories](https://docs.flatpak.org/en/latest/sandbox-permissions-reference.html#filesystem-permissions) are supported (and recommended).
    If possible, append `:ro` to keep access to sketch directories you don't intend to modify read-only.
    
    ![Filesystem options](https://imgur.com/BSI46Lj.png)
