@@ -11,3 +11,7 @@
    ![Persistent options](https://imgur.com/S7jR238.png)
 
 5. (Optional) Move the `~/.arduinoIDE` and `~/arduino15` folders to `~/var/app/cc.arduino.IDE2`.
+
+6. Change the Sketchbook location at File > Preferences.
+
+   ![Sketchbook location option](https://imgur.com/g66a8MQ.png)
