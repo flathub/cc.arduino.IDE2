@@ -148,8 +148,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.kernel.org/pub/software/scm/git/git-2.42.0.tar.gz",
-                    "sha256": "34aedd54210d7216a55d642bbb4cfb22695b7610719a106bf0ddef4c82a8beed",
+                    "url": "https://www.kernel.org/pub/software/scm/git/git-2.42.1.tar.gz",
+                    "sha256": "839d75c91ddfa9f7534f7b0888e462e3ad1422bb8ef12ec35f6261cea18efe33",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 5350,
