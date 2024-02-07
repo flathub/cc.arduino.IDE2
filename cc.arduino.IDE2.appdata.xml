@@ -45,7 +45,57 @@
 		</p>
 	</description>
 	<releases>
-		<release version="2.3.0" date="2024-02-07"/>
+		<release version="2.3.0" date="2024-02-07">
+			<description>
+				<p>Added</p>
+				<ul>
+				    <li>Identify boards from manually installed platforms in "Select Other Board and Port" dialog tooltip (#2270)</li>
+				    <li>Support .cc and .cxx extensions for sketch files (#2265)</li>
+				    <li>Intellisense and validation for custom_debug.json (#2281)</li>
+				    <li>Support direct modification of debugger's launch.json configuration file (#2281)</li>
+				    <li>Show progress information in the status bar when Arduino CLI is running debug --info --programmer command (#2281)</li>
+				    <li>Support selecting debug probe via "Tools > Programmer" menu (#2281)</li>
+				    <li>Disable debug widget if unsupported by board (#14)</li>
+				    <li>Advanced preference to limit thread count of Arduino Language Server (#2350)</li>
+				</ul>
+				<p>Changed</p>
+				<ul>
+				    <li>Use new debug -I -P CLI output (#2281)</li>
+				    <li>New debug_custom.json schema (#2281)</li>
+				    <li>Update built-in example sketches to 1.10.1 (#2322)</li>
+				    <li>Update translation files (#2216)</li>
+				    <li>Update Node.js dependency to 18 (#2199)</li>
+				    <li>Update electron dependency to 27.0.3 (#2199, #2252, 0f83a48)</li>
+				    <li>Update Theia dependency to 1.41.0 (#2211)</li>
+				    <li>Update Arduino Language Server dependency to 0.7.6 (a0bd5d0, #2350)</li>
+				    <li>Update Arduino CLI dependency to 0.35.2 (73b6dc4, b8dd39c, #2350)</li>
+				    <li>Update vscode-arduino-tools dependency to 0.1.1 (73b6dc4)</li>
+				</ul>
+				<p>Fixed</p>
+				<ul>
+				    <li>Forward backend logging to electron (#2236)</li>
+				    <li>Arduino state data not available to extensions after IDE startup (#2233)</li>
+				    <li>"Configure and Upload" dialog not presented for uploads dependent on "user provided fields" after IDE startup (#2230)</li>
+				    <li>Custom board option selection made in one window affects other windows as well (#2240)</li>
+				    <li>"Start Debugging" button incorrectly disabled if board was pre-selected on IDE startup (#2237)</li>
+				    <li>Board-dependent menus not populated if board was pre-selected on IDE startup (#2239)</li>
+				    <li>Saving sketch fails silently when files are read-only (#1501)</li>
+				    <li>IDE window doesn't open when started via sketch file association (#2209)</li>
+				    <li>Subfolder structure of sketch lost after "Save As" operation (#2077)</li>
+				    <li>Naming collision during "Save As" causes overwrite of secondary sketch file (#827)</li>
+				    <li>Previous selection remains in "Firmware Updater" and "Certificate Uploader" menu after no longer available (#2222)</li>
+				    <li>Bundle native Arduino Firmware Uploader with Apple Silicon build (#2338)</li>
+				</ul>
+				<p>Security</p>
+				<ul>
+				    <li>Update electron to resolve CVE-2023-4863 and CVE-2023-39956 (#2252)</li>
+				    <li>Replace usage of shelljs package with fs and console (#2252)</li>
+				    <li>Replace usage of uuid package with @phosphor/coreutils (#2252)</li>
+				    <li>Update @babel/traverse to resolve CVE-2023-45133 (#2273)</li>
+				    <li>Update auth0-js to resolve CVE-2023-46233 (#2273)</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2.2.1" date="2023-08-31">
 			<description>
 				<p>
