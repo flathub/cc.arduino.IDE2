@@ -45,7 +45,20 @@
 		</p>
 	</description>
 	<releases>
-		<release version="2.3.1" date="2024-02-15"/>
+		<release version="2.3.1" date="2024-02-15">
+			<description>
+				<p>Fixed</p>
+				<ul>
+				    <li>Debug view blank on first debugging session of a sketch (#2354)</li>
+				</ul>
+				<p>Security</p>
+				<ul>
+				    <li>Update msgpackr to resolve CVE-2023-52079 (#2360)</li>
+				    <li>Update axios to resolve CVE-2023-45857 (#2360)</li>
+				    <li>Update follow-redirects to resolve CVE-2023-26159 (#2360)</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2.3.0" date="2024-02-07">
 			<description>
 				<p>Added</p>
