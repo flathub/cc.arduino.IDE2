@@ -45,6 +45,7 @@
 		</p>
 	</description>
 	<releases>
+		<release version="2.3.1" date="2024-02-15"/>
 		<release version="2.3.0" date="2024-02-07">
 			<description>
 				<p>Added</p>
@@ -54,7 +55,7 @@
 				    <li>Intellisense and validation for custom_debug.json (#2281)</li>
 				    <li>Support direct modification of debugger's launch.json configuration file (#2281)</li>
 				    <li>Show progress information in the status bar when Arduino CLI is running debug --info --programmer command (#2281)</li>
-				    <li>Support selecting debug probe via "Tools > Programmer" menu (#2281)</li>
+				    <li>Support selecting debug probe via "Tools &gt; Programmer" menu (#2281)</li>
 				    <li>Disable debug widget if unsupported by board (#14)</li>
 				    <li>Advanced preference to limit thread count of Arduino Language Server (#2350)</li>
 				</ul>
