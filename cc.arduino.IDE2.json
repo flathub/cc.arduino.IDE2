@@ -147,8 +147,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.kernel.org/pub/software/scm/git/git-2.43.1.tar.gz",
-                    "sha256": "4977349ad66f3a6a4f4b0471af702ff412b6e407e0918eb92788e4f829605360",
+                    "url": "https://www.kernel.org/pub/software/scm/git/git-2.43.2.tar.gz",
+                    "sha256": "0dde66dc6a0ef5ae41f550052e5574a01b5378bf2b396497070fc4913c749f75",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 5350,
@@ -193,8 +193,8 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/arduino/arduino-ide/releases/download/2.3.0/arduino-ide_2.3.0_Linux_64bit.zip",
-                    "sha256": "fcb3184ca5204a2eb2c03e93cad4d3a97fd8751b377c9724ed90b21a2ffed490",
+                    "url": "https://github.com/arduino/arduino-ide/releases/download/2.3.1/arduino-ide_2.3.1_Linux_64bit.zip",
+                    "sha256": "5fe97aeb7a8a3321798de69dee364ab41f4efee08388f9e083b795d123252950",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/arduino/arduino-ide/releases/latest",
