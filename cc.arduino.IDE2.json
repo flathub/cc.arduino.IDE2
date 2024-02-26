@@ -16,7 +16,8 @@
         "--filesystem=home",
         "--filesystem=xdg-run/keyring",
         "--system-talk-name=org.gtk.vfs.*",
-        "--talk-name=org.freedesktop.secrets"
+        "--talk-name=org.freedesktop.secrets",
+        "--system-talk-name=org.freedesktop.UDisks2"
     ],
     "modules": [
         "shared-modules/libusb/libusb.json",
