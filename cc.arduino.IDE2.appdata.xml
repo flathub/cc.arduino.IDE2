@@ -6,7 +6,7 @@
 	<name>Arduino IDE v2</name>
 	<summary>Open-source electronics prototyping platform</summary>
 	<developer_name>Arduino SA</developer_name>
-      	<launchable type="desktop-id">cc.arduino.IDE2.desktop</launchable>
+	<launchable type="desktop-id">cc.arduino.IDE2.desktop</launchable>
 
 	<description>
 		<p>
