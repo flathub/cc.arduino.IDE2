@@ -50,7 +50,27 @@
 	</description>
 	<releases>
 		<release version="2.3.3" date="2024-09-25">
-			<description></description>
+			<description>
+				<p>Added</p>
+				<ul>
+				    <li>Allow view and edit of Arduino Cloud Shared Space Sketches (#2486)</li>
+				    <li>Cancelable Verify & Upload (#1199)</li>
+				</ul>
+				<p>Changed</p>
+				<ul>
+				    <li>Bump CLI to 1.0.4 (#2457)</li>
+				    <li>Use upload with programmer as default when required (#2500)</li>
+				    <li>Update Windows Signing Certificate (#2452)</li>
+				    <li>Update Github Actions runners (#2508, #2513)</li>
+				</ul>
+				<p>Fixed</p>
+				<ul>
+				    <li>Can unset network#proxy in the CLI config (#2184)</li>
+				    <li>Invalid custom board option handling in FQBN (#1588)</li>
+				    <li>Add missing installed version to the platform (#2378)</li>
+				    <li>Copy example with .pde main sketch file (#2377)</li>
+				</ul>
+			</description>
 		</release>
 		<release version="2.3.2" date="2024-02-20"/>
 		<release version="2.3.1" date="2024-02-15">
