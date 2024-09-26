@@ -54,7 +54,7 @@
 				<p>Added</p>
 				<ul>
 				    <li>Allow view and edit of Arduino Cloud Shared Space Sketches (#2486)</li>
-				    <li>Cancelable Verify & Upload (#1199)</li>
+				    <li>Cancelable Verify and Upload (#1199)</li>
 				</ul>
 				<p>Changed</p>
 				<ul>
