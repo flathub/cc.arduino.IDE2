@@ -23,6 +23,7 @@
         "shared-modules/libusb/libusb.json",
         {
             "name": "usbutils",
+            "buildsystem": "meson",
             "config-opts": [
                 "--datadir=/app/share/hwdata",
                 "--sbindir=/app/bin"
