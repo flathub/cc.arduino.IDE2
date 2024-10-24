@@ -23,6 +23,7 @@
         "shared-modules/libusb/libusb.json",
         {
             "name": "usbutils",
+            "buildsystem": "meson",
             "config-opts": [
                 "--datadir=/app/share/hwdata",
                 "--sbindir=/app/bin"
@@ -31,8 +32,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/gregkh/usbutils.git",
-                    "tag": "v017",
-                    "commit": "23077bf82534baad8adfe33ce4c02b5fb087eb86",
+                    "tag": "v018",
+                    "commit": "cda6883cade6ec67671d0c7de61e70eb992509a9",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -148,8 +149,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.kernel.org/pub/software/scm/git/git-2.46.2.tar.gz",
-                    "sha256": "65c5689fd44f1d09de7fd8c44de7fef074ddd69dda8b8503d44afb91495ecbce",
+                    "url": "https://www.kernel.org/pub/software/scm/git/git-2.47.0.tar.gz",
+                    "sha256": "a84a7917e0ab608312834413f01fc01edc7844f9f9002ba69f3b4f4bcb8d937a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 5350,
