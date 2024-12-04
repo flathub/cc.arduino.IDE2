@@ -57,7 +57,7 @@
 		<release version="2.3.4" date="2024-12-03">
 			<description>
 				<p>
-					<b>Important Compatibility Notice [Ubuntu 18.04]</b>
+					Important Compatibility Notice [Ubuntu 18.04]
 				</p>
 				<p>This will be the final release supporting Ubuntu 18.04. Unfortunately due to
 					changes in our Continuous Integration workflows we are no longer able to produce
