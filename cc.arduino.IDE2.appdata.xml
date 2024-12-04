@@ -14,15 +14,19 @@
 	<description>
 		<p>
 			NOTE: This wrapper is not verified by, affiliated with, or supported by Arduino.
-			Arduino do not offer official support for the Flatpak wrapper, and so to offer the best support and experience for the Flatpak wrapper please report ALL issues at the Flathub issue tracker (linked by the issue button/link on this page).
-			This allows with issues to be dealt with correctly. For more info press the issues button/link on this page.
+			Arduino do not offer official support for the Flatpak wrapper, and so to offer the best
+			support and experience for the Flatpak wrapper please report ALL issues at the Flathub
+			issue tracker (linked by the issue button/link on this page).
+			This allows with issues to be dealt with correctly. For more info press the issues
+			button/link on this page.
 		</p>
 		<p>
-			If you would like to limit the app's filesystem access and avoid cluttered configuration files, please see limit-filesystem-access.md in the Flathub repo.
+			If you would like to limit the app's filesystem access and avoid cluttered configuration
+			files, please see limit-filesystem-access.md in the Flathub repo.
 		</p>
 		<p>
 			Arduino is an open-source electronics prototyping platform based
-			on flexible, easy-to-use hardware and software.  It's intended for
+			on flexible, easy-to-use hardware and software. It's intended for
 			artists, designers, hobbyists, and anyone interested in creating
 			interactive objects or environments.
 		</p>
@@ -31,12 +35,13 @@
 			to develop and upload code to compatible microcontrollers.
 		</p>
 		<p>
-			The new major release of the Arduino IDE is faster and even more powerful! 
-			In addition to a more modern editor and a more responsive interface it features 
+			The new major release of the Arduino IDE is faster and even more powerful!
+			In addition to a more modern editor and a more responsive interface it features
 			autocompletion, code navigation, and even a live debugger.
 		</p>
 		<p>
-			The Flatpak build of Arduino IDE 2.x requires the user to have USB permissions to upload a sketch, preferably, the user has to be part of the dialout group.
+			The Flatpak build of Arduino IDE 2.x requires the user to have USB permissions to upload
+			a sketch, preferably, the user has to be part of the dialout group.
 		</p>
 		<p>
 			Alternatively, add the following 2 lines to /etc/udev/rules.d/50-arduino.rules:
@@ -49,41 +54,73 @@
 		</p>
 	</description>
 	<releases>
+		<release version="2.3.4" date="2024-12-03">
+			<description>
+				<p>
+					Important Compatibility Notice [Ubuntu 18.04]
+				</p>
+				<p>This will be the final release supporting Ubuntu 18.04. Unfortunately due to
+					changes in our Continuous Integration workflows we are no longer able to produce
+					IDE 2.x builds compatible with older versions of Ubuntu (context, related
+					change). We have manually built Arduino IDE 2.3.4 to allow support for one final
+					version, subsequent releases will not be compatible.</p>
+				<p>Added</p>
+				<ul>
+					<li>Can skip verify before upload (#2397)</li>
+					<li>Implement menu action to reload current board data (#2553)</li>
+					<li>Add donate footer to updater dialog (71b11ed, #2581)</li>
+					<li>Add dialog to introduce to new version (4788bfb, #2581)</li>
+				</ul>
+				<p>Changed</p>
+				<ul>
+					<li>Use Arduino CLI v1.1.1 (#2576)</li>
+					<li>Use Ubuntu 18.10 in Linux build container (#2307)</li>
+				</ul>
+				<p>Fixed</p>
+				<ul>
+					<li>Retry compilation if grpc client needs to be reinitialized (#2548)</li>
+					<li>Fix memory leak when scanning sketchbooks with large files (#2555)</li>
+					<li>Disable local windows signing for forks PR (#2554)</li>
+					<li>Align viewsWelcome behavior to VS Code (#2543)</li>
+					<li>Fix CLI error parsing (#2518)</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2.3.3" date="2024-09-25">
 			<description>
 				<p>Added</p>
 				<ul>
-				    <li>Allow view and edit of Arduino Cloud Shared Space Sketches (#2486)</li>
-				    <li>Cancelable Verify and Upload (#1199)</li>
+					<li>Allow view and edit of Arduino Cloud Shared Space Sketches (#2486)</li>
+					<li>Cancelable Verify and Upload (#1199)</li>
 				</ul>
 				<p>Changed</p>
 				<ul>
-				    <li>Bump CLI to 1.0.4 (#2457)</li>
-				    <li>Use upload with programmer as default when required (#2500)</li>
-				    <li>Update Windows Signing Certificate (#2452)</li>
-				    <li>Update Github Actions runners (#2508, #2513)</li>
+					<li>Bump CLI to 1.0.4 (#2457)</li>
+					<li>Use upload with programmer as default when required (#2500)</li>
+					<li>Update Windows Signing Certificate (#2452)</li>
+					<li>Update Github Actions runners (#2508, #2513)</li>
 				</ul>
 				<p>Fixed</p>
 				<ul>
-				    <li>Can unset network#proxy in the CLI config (#2184)</li>
-				    <li>Invalid custom board option handling in FQBN (#1588)</li>
-				    <li>Add missing installed version to the platform (#2378)</li>
-				    <li>Copy example with .pde main sketch file (#2377)</li>
+					<li>Can unset network#proxy in the CLI config (#2184)</li>
+					<li>Invalid custom board option handling in FQBN (#1588)</li>
+					<li>Add missing installed version to the platform (#2378)</li>
+					<li>Copy example with .pde main sketch file (#2377)</li>
 				</ul>
 			</description>
 		</release>
-		<release version="2.3.2" date="2024-02-20"/>
+		<release version="2.3.2" date="2024-02-20" />
 		<release version="2.3.1" date="2024-02-15">
 			<description>
 				<p>Fixed</p>
 				<ul>
-				    <li>Debug view blank on first debugging session of a sketch (#2354)</li>
+					<li>Debug view blank on first debugging session of a sketch (#2354)</li>
 				</ul>
 				<p>Security</p>
 				<ul>
-				    <li>Update msgpackr to resolve CVE-2023-52079 (#2360)</li>
-				    <li>Update axios to resolve CVE-2023-45857 (#2360)</li>
-				    <li>Update follow-redirects to resolve CVE-2023-26159 (#2360)</li>
+					<li>Update msgpackr to resolve CVE-2023-52079 (#2360)</li>
+					<li>Update axios to resolve CVE-2023-45857 (#2360)</li>
+					<li>Update follow-redirects to resolve CVE-2023-26159 (#2360)</li>
 				</ul>
 			</description>
 		</release>
@@ -91,50 +128,59 @@
 			<description>
 				<p>Added</p>
 				<ul>
-				    <li>Identify boards from manually installed platforms in "Select Other Board and Port" dialog tooltip (#2270)</li>
-				    <li>Support .cc and .cxx extensions for sketch files (#2265)</li>
-				    <li>Intellisense and validation for custom_debug.json (#2281)</li>
-				    <li>Support direct modification of debugger's launch.json configuration file (#2281)</li>
-				    <li>Show progress information in the status bar when Arduino CLI is running debug --info --programmer command (#2281)</li>
-				    <li>Support selecting debug probe via "Tools &gt; Programmer" menu (#2281)</li>
-				    <li>Disable debug widget if unsupported by board (#14)</li>
-				    <li>Advanced preference to limit thread count of Arduino Language Server (#2350)</li>
+					<li>Identify boards from manually installed platforms in "Select Other Board and
+						Port" dialog tooltip (#2270)</li>
+					<li>Support .cc and .cxx extensions for sketch files (#2265)</li>
+					<li>Intellisense and validation for custom_debug.json (#2281)</li>
+					<li>Support direct modification of debugger's launch.json configuration file
+						(#2281)</li>
+					<li>Show progress information in the status bar when Arduino CLI is running
+						debug --info --programmer command (#2281)</li>
+					<li>Support selecting debug probe via "Tools &gt; Programmer" menu (#2281)</li>
+					<li>Disable debug widget if unsupported by board (#14)</li>
+					<li>Advanced preference to limit thread count of Arduino Language Server (#2350)</li>
 				</ul>
 				<p>Changed</p>
 				<ul>
-				    <li>Use new debug -I -P CLI output (#2281)</li>
-				    <li>New debug_custom.json schema (#2281)</li>
-				    <li>Update built-in example sketches to 1.10.1 (#2322)</li>
-				    <li>Update translation files (#2216)</li>
-				    <li>Update Node.js dependency to 18 (#2199)</li>
-				    <li>Update electron dependency to 27.0.3 (#2199, #2252, 0f83a48)</li>
-				    <li>Update Theia dependency to 1.41.0 (#2211)</li>
-				    <li>Update Arduino Language Server dependency to 0.7.6 (a0bd5d0, #2350)</li>
-				    <li>Update Arduino CLI dependency to 0.35.2 (73b6dc4, b8dd39c, #2350)</li>
-				    <li>Update vscode-arduino-tools dependency to 0.1.1 (73b6dc4)</li>
+					<li>Use new debug -I -P CLI output (#2281)</li>
+					<li>New debug_custom.json schema (#2281)</li>
+					<li>Update built-in example sketches to 1.10.1 (#2322)</li>
+					<li>Update translation files (#2216)</li>
+					<li>Update Node.js dependency to 18 (#2199)</li>
+					<li>Update electron dependency to 27.0.3 (#2199, #2252, 0f83a48)</li>
+					<li>Update Theia dependency to 1.41.0 (#2211)</li>
+					<li>Update Arduino Language Server dependency to 0.7.6 (a0bd5d0, #2350)</li>
+					<li>Update Arduino CLI dependency to 0.35.2 (73b6dc4, b8dd39c, #2350)</li>
+					<li>Update vscode-arduino-tools dependency to 0.1.1 (73b6dc4)</li>
 				</ul>
 				<p>Fixed</p>
 				<ul>
-				    <li>Forward backend logging to electron (#2236)</li>
-				    <li>Arduino state data not available to extensions after IDE startup (#2233)</li>
-				    <li>"Configure and Upload" dialog not presented for uploads dependent on "user provided fields" after IDE startup (#2230)</li>
-				    <li>Custom board option selection made in one window affects other windows as well (#2240)</li>
-				    <li>"Start Debugging" button incorrectly disabled if board was pre-selected on IDE startup (#2237)</li>
-				    <li>Board-dependent menus not populated if board was pre-selected on IDE startup (#2239)</li>
-				    <li>Saving sketch fails silently when files are read-only (#1501)</li>
-				    <li>IDE window doesn't open when started via sketch file association (#2209)</li>
-				    <li>Subfolder structure of sketch lost after "Save As" operation (#2077)</li>
-				    <li>Naming collision during "Save As" causes overwrite of secondary sketch file (#827)</li>
-				    <li>Previous selection remains in "Firmware Updater" and "Certificate Uploader" menu after no longer available (#2222)</li>
-				    <li>Bundle native Arduino Firmware Uploader with Apple Silicon build (#2338)</li>
+					<li>Forward backend logging to electron (#2236)</li>
+					<li>Arduino state data not available to extensions after IDE startup (#2233)</li>
+					<li>"Configure and Upload" dialog not presented for uploads dependent on "user
+						provided fields" after IDE startup (#2230)</li>
+					<li>Custom board option selection made in one window affects other windows as
+						well (#2240)</li>
+					<li>"Start Debugging" button incorrectly disabled if board was pre-selected on
+						IDE startup (#2237)</li>
+					<li>Board-dependent menus not populated if board was pre-selected on IDE startup
+						(#2239)</li>
+					<li>Saving sketch fails silently when files are read-only (#1501)</li>
+					<li>IDE window doesn't open when started via sketch file association (#2209)</li>
+					<li>Subfolder structure of sketch lost after "Save As" operation (#2077)</li>
+					<li>Naming collision during "Save As" causes overwrite of secondary sketch file
+						(#827)</li>
+					<li>Previous selection remains in "Firmware Updater" and "Certificate Uploader"
+						menu after no longer available (#2222)</li>
+					<li>Bundle native Arduino Firmware Uploader with Apple Silicon build (#2338)</li>
 				</ul>
 				<p>Security</p>
 				<ul>
-				    <li>Update electron to resolve CVE-2023-4863 and CVE-2023-39956 (#2252)</li>
-				    <li>Replace usage of shelljs package with fs and console (#2252)</li>
-				    <li>Replace usage of uuid package with @phosphor/coreutils (#2252)</li>
-				    <li>Update @babel/traverse to resolve CVE-2023-45133 (#2273)</li>
-				    <li>Update auth0-js to resolve CVE-2023-46233 (#2273)</li>
+					<li>Update electron to resolve CVE-2023-4863 and CVE-2023-39956 (#2252)</li>
+					<li>Replace usage of shelljs package with fs and console (#2252)</li>
+					<li>Replace usage of uuid package with @phosphor/coreutils (#2252)</li>
+					<li>Update @babel/traverse to resolve CVE-2023-45133 (#2273)</li>
+					<li>Update auth0-js to resolve CVE-2023-46233 (#2273)</li>
 				</ul>
 			</description>
 		</release>
