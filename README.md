@@ -5,12 +5,21 @@ Please report ALL issues for the IDE here (assuming you have installed the Flath
 For more information see: https://github.com/flathub/cc.arduino.IDE2/issues/35.
 
 To run the app you need USB permissions, preferably, the user has to be part of the
-`dialout` group. Alternatively, add:
+`dialout` group. 
+
+``` sh
+sudo usermod -a -G dialout <username>
+```
+**Note:** Restart your computer for the changes to take effect.
+
+Alternatively, add:
 ``` sh
 KERNEL=="ttyUSB[0-9]*",MODE="0666"
 KERNEL=="ttyACM[0-9]*",MODE="0666"
 ```
 to `/etc/udev/rules.d/50-arduino.rules`.
+
+Still having problems? [Fix port access on linux for Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360016495679-Fix-port-access-on-Linux)
 
 ## Limit filesystem access
 By default, Arduino has access to your entire home directory and places `.arduino` dotfolders in it. See [here](limit-filesystem-access.md) to limit this access and prevent dotfolder cluttering.
