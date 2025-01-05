@@ -41,7 +41,7 @@
 		</p>
 		<p>
 			The Flatpak build of Arduino IDE 2.x requires the user to have USB permissions to upload
-			a sketch, see our <a href="https://github.com/flathub/cc.arduino.IDE2/blob/master/README.md">readme</a> for instructions.
+			a sketch, see our readme for instructions (https://github.com/flathub/cc.arduino.IDE2/blob/master/README.md).
 		</p>
 	</description>
 	<releases>
