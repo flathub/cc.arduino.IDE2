@@ -192,13 +192,13 @@
                 {
                     "type": "archive",
                     "dest": "arduino-ide",
-                    "strip-components": 0,
+                    "strip-components": 1,
                     "archive-type": "zip",
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/arduino/arduino-ide/releases/download/2.3.4/arduino-ide_2.3.4_Linux_64bit.zip",
-                    "sha256": "424aacc25e1558851083be651ac92195443f69c9a7d65710b447a40967a4b381",
+                    "url": "https://github.com/arduino/arduino-ide/releases/download/2.3.5/arduino-ide_2.3.5_Linux_64bit.zip",
+                    "sha256": "5d1121f3faa8915896de559b79026b92266b360dbc327503425a592028991a42",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/arduino/arduino-ide/releases/latest",
