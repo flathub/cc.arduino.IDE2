@@ -46,7 +46,24 @@
 	</description>
 	<releases>
 		<release version="2.3.5" date="2025-04-02">
-			<description></description>
+			<description>
+				<p>Changed</p>
+				<ul>
+					<li>Bump Arduino CLI to v1.2.0 (#2645)</li>
+					<li>Bump Theia IDE to v1.57.0 (#2654)</li>
+					<li>Bump Electron version and upgrade yarn dependencies (#2654)</li>
+					<li>Bump built-in example sketches version to 1.10.2 (#2646)</li>
+					<li>Updated translation files (#2597)</li>
+				</ul>
+
+				<p>Fixed</p>
+				<ul>
+					<li>Sanitize message in notification component (#2664)</li>
+					<li>Decouple state update from the LS (#2643)</li>
+					<li>Safer electron version parsing for electron-builder command (#2673)</li>
+					<li>Multiple CI workflows fixes (#2647 #2675 #2672 #2676)</li>
+				</ul>
+			</description>
 		</release>
 		<release version="2.3.4" date="2024-12-03">
 			<description>
