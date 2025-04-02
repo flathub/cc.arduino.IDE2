@@ -192,7 +192,7 @@
                 {
                     "type": "archive",
                     "dest": "arduino-ide",
-                    "strip-components": 0,
+                    "strip-components": 1,
                     "archive-type": "zip",
                     "only-arches": [
                         "x86_64"
