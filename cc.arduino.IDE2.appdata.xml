@@ -45,6 +45,9 @@
 		</p>
 	</description>
 	<releases>
+		<release version="2.3.6" date="2025-04-09">
+			<description></description>
+		</release>
 		<release version="2.3.5" date="2025-04-02">
 			<description>
 				<p>Changed</p>
