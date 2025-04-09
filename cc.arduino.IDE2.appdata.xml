@@ -46,7 +46,21 @@
 	</description>
 	<releases>
 		<release version="2.3.6" date="2025-04-09">
-			<description></description>
+			<description>
+				<p>Fixed</p>
+				<ul>
+					<li>Auto-update doesn't trigger (#2697)</li>
+					<li>Extra blank window when IDE started via sketch file association (#2693)</li>
+					<li>Duplicate sketch opened from file and terminal on second instance of IDE (#2686)</li>
+					<li>IDE window steals focus when new content added to Output view (#2681)</li>
+					<li>Add missing Linux dependencies for create-changelog job (#2677)</li>
+				</ul>
+
+				<p>Changed</p>
+				<ul>
+					<li>Update translation files (#2692)</li>
+				</ul>
+			</description>
 		</release>
 		<release version="2.3.5" date="2025-04-02">
 			<description>
