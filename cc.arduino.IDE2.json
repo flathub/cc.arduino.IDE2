@@ -161,6 +161,37 @@
             ]
         },
         {
+            "name": "krb5",
+            "subdir": "src",
+            "config-opts": [
+                "--disable-static",
+                "--disable-rpath"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://kerberos.org/dist/krb5/1.21/krb5-1.21.3.tar.gz",
+                    "sha256": "b7a4cd5ead67fb08b980b21abd150ff7217e85ea320c9ed0c6dadd304840ad35",
+                    "x-checker-data": {
+                        "type": "html",
+                        "url": "https://kerberos.org/dist/",
+                        "version-pattern": "Kerberos V5 Release ([\\d\\.-]*) - current release",
+                        "url-template": "https://kerberos.org/dist/krb5/$major.$minor/krb5-$version.tar.gz"
+                    }
+                }
+            ],
+            "cleanup": [
+                "/sbin",
+                "/bin",
+                "/var",
+                "/include",
+                "/lib/pkgconfig",
+                "/share/et",
+                "/share/examples",
+                "/share/man"
+            ]
+        },
+        {
             "name": "arduino-ide",
             "buildsystem": "simple",
             "build-commands": [
