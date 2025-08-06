@@ -88,8 +88,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/ec/85/e7297e34133ae1cfde3bffd30c24e1ef055248251baa877834e048687a28/click-8.2.2-py3-none-any.whl",
-                    "sha256": "52e1e9f5d3db8c85aa76968c7c67ed41ddbacb167f43201511c8fd61eb5ba2ca",
+                    "url": "https://files.pythonhosted.org/packages/85/32/10bb5764d90a8eee674e9dc6f4db6a0ab47c8c4d0d83c27f7c39ac415a4d/click-8.2.1-py3-none-any.whl",
+                    "sha256": "61a3265b914e850b85317d0b3109c7f8cd35a670f963866005d6ef1d5175a12b",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "click",
@@ -170,8 +170,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://kerberos.org/dist/krb5/1.21/krb5-1.21.3.tar.gz",
-                    "sha256": "b7a4cd5ead67fb08b980b21abd150ff7217e85ea320c9ed0c6dadd304840ad35",
+                    "url": "https://kerberos.org/dist/krb5/1.22/krb5-1.22.tar.gz",
+                    "sha256": "652be617b4647f3c5dcac21547d47c7097101aad4e306f1778fb48e17b220ba3",
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://kerberos.org/dist/",
