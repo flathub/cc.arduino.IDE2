@@ -1,9 +1,9 @@
 {
     "app-id": "cc.arduino.IDE2",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "24.08",
+    "runtime-version": "25.08",
     "base": "org.electronjs.Electron2.BaseApp",
-    "base-version": "24.08",
+    "base-version": "25.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "arduino-ide",
     "separate-locales": false,
@@ -20,7 +20,6 @@
         "--system-talk-name=org.freedesktop.UDisks2"
     ],
     "modules": [
-        "shared-modules/libusb/libusb.json",
         {
             "name": "usbutils",
             "buildsystem": "meson",
@@ -102,9 +101,19 @@
             "name": "python3-ecdsa",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"ecdsa\""
+                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} six ecdsa"
             ],
             "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl",
+                    "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "six",
+                        "packagetype": "bdist_wheel"
+                    }
+                },
                 {
                     "type": "file",
                     "url": "https://files.pythonhosted.org/packages/cb/a3/460c57f094a4a165c84a1341c373b0a4f5ec6ac244b998d5021aade89b77/ecdsa-0.19.1-py2.py3-none-any.whl",
