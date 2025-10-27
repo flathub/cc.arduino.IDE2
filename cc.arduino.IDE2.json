@@ -32,8 +32,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/gregkh/usbutils.git",
-                    "tag": "v018",
-                    "commit": "cda6883cade6ec67671d0c7de61e70eb992509a9",
+                    "tag": "v019",
+                    "commit": "d0c76b601b4b3ab9b2ab2647d604a8e3cce6d666",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -159,8 +159,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.kernel.org/pub/software/scm/git/git-2.51.1.tar.gz",
-                    "sha256": "b049d79e6a6cb3d81334bf689af6301f4d4c884191dfae65d2bb314a90384831",
+                    "url": "https://www.kernel.org/pub/software/scm/git/git-2.51.2.tar.gz",
+                    "sha256": "9b44c2b337ec838e10aad42439d390963904449710d30c9e7e4ba449f45da98f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 5350,
