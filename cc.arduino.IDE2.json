@@ -226,9 +226,7 @@
                 },
                 {
                     "type": "file",
-                    "dest-filename": "cc.arduino.IDE2.svg",
-                    "url": "https://www.arduino.cc/wiki/370832ed4114dd35d498f2f449b4781e/arduino.svg",
-                    "sha256": "4137981bcb4057c2e0092f22faea287767f102e0b48497d22cd55e8d6988e4ac"
+                    "path": "cc.arduino.IDE2.svg"
                 },
                 {
                     "type": "archive",
