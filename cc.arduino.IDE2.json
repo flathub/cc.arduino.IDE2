@@ -64,7 +64,7 @@
             "name": "python-packages",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pyserial\" \"click\" \"six\" \"ecdsa\" \"setuptools\" \"adafruit-nrfutil\"",
+                "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pyserial\" \"click\" \"six\" \"ecdsa\" \"setuptools\" \"adafruit-nrfutil\""
             ],
             "sources": [
                 {
