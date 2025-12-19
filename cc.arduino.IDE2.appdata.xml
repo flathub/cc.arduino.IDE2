@@ -45,6 +45,27 @@
 		</p>
 	</description>
 	<releases>
+		<release version="2.3.7" date="2025-12-17">
+			<description>
+				<p>Fixed</p>
+				<ul>
+				    <li>When updating a library, install all dependencies (#2830)</li>
+				    <li>Escape asterisks in error message content for notification display (#2811)</li>
+				    <li>Replace null characters in copied monitor output (#2382)</li>
+				    <li>Review macOS build security (#2805)</li>
+				    <li>Use macos-15-intel runner for MacOS x86_64 builds (#2828)</li>
+				</ul>
+				<p>Changed</p>
+				<ul>
+				    <li>Use Arduino CLI 1.3.1 (#2806)</li>
+				    <li>Add copy button to serial monitor (#2718) [93d27ea]</li>
+				    <li>Add "installed" filter in boards manager (#2812)</li>
+				    <li>Update translation files (#2709)</li>
+				    <li>Remove welcome dialog and donation links (#2808) [155f0ae] [11b2460]</li>
+				    <li>Update docs (#2821) (#2814) [ee4f74d]</li>
+				</ul>
+			</description>
+		</release>
 		<release version="2.3.6" date="2025-04-09">
 			<description>
 				<p>Fixed</p>

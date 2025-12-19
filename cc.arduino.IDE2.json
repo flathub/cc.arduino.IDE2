@@ -75,7 +75,6 @@
                         "type": "pypi",
                         "name": "pyserial",
                         "packagetype": "bdist_wheel"
-                    
                     }
                 },
                 {
@@ -220,8 +219,8 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/arduino/arduino-ide/releases/download/2.3.6/arduino-ide_2.3.6_Linux_64bit.zip",
-                    "sha256": "33bf2cb868abf92b3d160f7433dcd6348cec1c9e633b5c9e1c761f630f87b82b",
+                    "url": "https://github.com/arduino/arduino-ide/releases/download/2.3.7/arduino-ide_2.3.7_Linux_64bit.zip",
+                    "sha256": "09f940d03350d286094b5a9e4fb297b7d156b1789e827f0d2bcf77c09fc04a78",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/arduino/arduino-ide/releases/latest",
