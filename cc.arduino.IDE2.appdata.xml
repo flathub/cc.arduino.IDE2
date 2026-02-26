@@ -46,7 +46,9 @@
 	</description>
 	<releases>
 		<release version="2.3.8" date="2026-02-25">
-			<description></description>
+			<description>
+				<url type="details">https://github.com/arduino/arduino-ide/releases/tag/2.3.8</url>
+			</description>
 		</release>
 		<release version="2.3.7" date="2025-12-17">
 			<description>
