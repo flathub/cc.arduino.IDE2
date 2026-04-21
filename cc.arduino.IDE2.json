@@ -79,8 +79,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/98/78/01c019cdb5d6498122777c1a43056ebb3ebfeef2076d9d026bfe15583b2b/click-8.3.1-py3-none-any.whl",
-                    "sha256": "981153a64e25f12d547d3426c367a4857371575ee7ad18df2a6183ab0545b2a6",
+                    "url": "https://files.pythonhosted.org/packages/e4/20/71885d8b97d4f3dde17b1fdb92dbd4908b00541c5a3379787137285f602e/click-8.3.2-py3-none-any.whl",
+                    "sha256": "1924d2c27c5653561cd2cae4548d1406039cb79b858b747cfea24924bbc1616d",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "click",
@@ -142,8 +142,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.kernel.org/pub/software/scm/git/git-2.53.0.tar.gz",
-                    "sha256": "429dc0f5fe5f14109930cdbbb588c5d6ef5b8528910f0d738040744bebdc6275",
+                    "url": "https://www.kernel.org/pub/software/scm/git/git-2.54.0.tar.gz",
+                    "sha256": "45e8107643a44e3ce46f5665beb35af3932fb0d70017687905ab5d4e3aafa8eb",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 5350,
