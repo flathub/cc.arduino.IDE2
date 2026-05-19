@@ -51,8 +51,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/libusb/libusb-compat-0.1.git",
-                    "tag": "v0.1.8",
-                    "commit": "3e8a88d296b5405902c22d2ada61937bd9a89415",
+                    "tag": "v0.1.9",
+                    "commit": "4831748a1439aec81e9cbb9984b1b0289c1c7051",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -79,8 +79,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/ae/44/c1221527f6a71a01ec6fbad7fa78f1d50dfa02217385cf0fa3eec7087d59/click-8.3.3-py3-none-any.whl",
-                    "sha256": "a2bf429bb3033c89fa4936ffb35d5cb471e3719e1f3c8a7c3fff0b8314305613",
+                    "url": "https://files.pythonhosted.org/packages/ee/ae/8e92f8058baf87f6c7d86ee7e457668690195cc77efedb8d3797a06e3940/click-8.4.0-py3-none-any.whl",
+                    "sha256": "40c50b7c6c6adac2823d411041ec84f3f103f1b280d5e9ce0d7f998995832f81",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "click",
