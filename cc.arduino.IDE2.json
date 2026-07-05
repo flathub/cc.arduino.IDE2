@@ -5,6 +5,7 @@
     "base": "org.electronjs.Electron2.BaseApp",
     "base-version": "25.08",
     "sdk": "org.freedesktop.Sdk",
+    "sdk-extensions": [ "org.freedesktop.Sdk.Extension.rust-stable" ], 
     "command": "arduino-ide",
     "separate-locales": false,
     "finish-args": [
@@ -131,6 +132,9 @@
         },
         {
             "name": "git",
+            "build-options": {
+                "append-path": "/usr/lib/sdk/rust-stable/bin",
+            },
             "make-args": [
                 "NO_TCLTK=1",
                 "INSTALL_SYMLINKS=1"
