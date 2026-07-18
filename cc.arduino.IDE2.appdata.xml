@@ -13,7 +13,6 @@
 
 	<description>
 		<p>
-			NOTE: This wrapper is not verified by, affiliated with, or supported by Arduino.
 			Arduino do not offer official support for the Flatpak wrapper, and so to offer the best
 			support and experience for the Flatpak wrapper please report ALL issues at the Flathub
 			issue tracker (linked by the issue button/link on this page).
