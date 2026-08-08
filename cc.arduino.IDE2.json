@@ -5,7 +5,9 @@
     "base": "org.electronjs.Electron2.BaseApp",
     "base-version": "25.08",
     "sdk": "org.freedesktop.Sdk",
-    "sdk-extensions": [ "org.freedesktop.Sdk.Extension.rust-stable" ], 
+    "sdk-extensions": [
+        "org.freedesktop.Sdk.Extension.rust-stable"
+    ],
     "command": "arduino-ide",
     "separate-locales": false,
     "finish-args": [
@@ -110,8 +112,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/5d/40/e1e72872c6354b306daef1703549e8e83b4d43cfea356311bf722a043752/setuptools-83.0.0-py3-none-any.whl",
-                    "sha256": "29b23c360f22f414dc7336bb39178cc7bcbf6021ed2733cde173f09dba19abb3",
+                    "url": "https://files.pythonhosted.org/packages/95/9c/c510029fc6ef33a6275cd2c5d3cecd6613dfd6aa401d57c54f1c18852ccf/setuptools-84.0.0-py3-none-any.whl",
+                    "sha256": "51a52592b3b99e102b609654876bd65f19f999935166d1352678931132b0c670",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "setuptools",
