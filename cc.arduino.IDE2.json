@@ -5,7 +5,9 @@
     "base": "org.electronjs.Electron2.BaseApp",
     "base-version": "25.08",
     "sdk": "org.freedesktop.Sdk",
-    "sdk-extensions": [ "org.freedesktop.Sdk.Extension.rust-stable" ], 
+    "sdk-extensions": [
+        "org.freedesktop.Sdk.Extension.rust-stable"
+    ],
     "command": "arduino-ide",
     "separate-locales": false,
     "finish-args": [
@@ -80,8 +82,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/fb/e2/79c688af8b210d232694e31e59da9f6ec747bae31c3f5946e4e9b98860d5/click-8.4.2-py3-none-any.whl",
-                    "sha256": "e6f9f66136c816745b9d65817da91d61d957fb16e02e4dcd0552553c5a197b76",
+                    "url": "https://files.pythonhosted.org/packages/58/50/6c0d534c5f134586a8e1ba4e330569e32f057e33372ae556463212fb4cd3/click-8.5.0-py3-none-any.whl",
+                    "sha256": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "click",
@@ -110,8 +112,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/5d/40/e1e72872c6354b306daef1703549e8e83b4d43cfea356311bf722a043752/setuptools-83.0.0-py3-none-any.whl",
-                    "sha256": "29b23c360f22f414dc7336bb39178cc7bcbf6021ed2733cde173f09dba19abb3",
+                    "url": "https://files.pythonhosted.org/packages/95/9c/c510029fc6ef33a6275cd2c5d3cecd6613dfd6aa401d57c54f1c18852ccf/setuptools-84.0.0-py3-none-any.whl",
+                    "sha256": "51a52592b3b99e102b609654876bd65f19f999935166d1352678931132b0c670",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "setuptools",
@@ -146,8 +148,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.kernel.org/pub/software/scm/git/git-2.55.0.tar.gz",
-                    "sha256": "0842dc384a23ac33ba3e570c4f3a8ded85963ee4713b1cd21153c3db41813d1e",
+                    "url": "https://www.kernel.org/pub/software/scm/git/git-2.56.0.tar.gz",
+                    "sha256": "826817fd3671b8565586d6d49f688298de8354ab11db829c02720e5c74b9b39f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 5350,
