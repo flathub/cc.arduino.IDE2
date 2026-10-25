@@ -35,8 +35,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/gregkh/usbutils.git",
-                    "tag": "v019",
-                    "commit": "d0c76b601b4b3ab9b2ab2647d604a8e3cce6d666",
+                    "tag": "v020",
+                    "commit": "ed4a892fecd9991e71cfd92a2205336f8c02a73a",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -112,8 +112,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/95/9c/c510029fc6ef33a6275cd2c5d3cecd6613dfd6aa401d57c54f1c18852ccf/setuptools-84.0.0-py3-none-any.whl",
-                    "sha256": "51a52592b3b99e102b609654876bd65f19f999935166d1352678931132b0c670",
+                    "url": "https://files.pythonhosted.org/packages/ef/55/6dc6d6bb953bdfc52519a0059592c52b6e3b8ad51cf8256dffceb55b0610/setuptools-84.2.1-py3-none-any.whl",
+                    "sha256": "ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "setuptools",
