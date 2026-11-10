@@ -82,8 +82,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/58/50/6c0d534c5f134586a8e1ba4e330569e32f057e33372ae556463212fb4cd3/click-8.5.0-py3-none-any.whl",
-                    "sha256": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360",
+                    "url": "https://files.pythonhosted.org/packages/31/7d/164b7ffc8624fe9efb4221bf9af485d5c1e41b9ae118045d2b6dc5457d8b/click-8.5.1-py3-none-any.whl",
+                    "sha256": "8bb5376d2006950386f8c6427613334a2acadc5f559cb80e638d00b4df957e37",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "click",
@@ -148,8 +148,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.kernel.org/pub/software/scm/git/git-2.56.0.tar.gz",
-                    "sha256": "826817fd3671b8565586d6d49f688298de8354ab11db829c02720e5c74b9b39f",
+                    "url": "https://www.kernel.org/pub/software/scm/git/git-2.56.1.tar.gz",
+                    "sha256": "fd0c0495427dc9ac445fdced8e36bb5eb6f233a14da5db3c6dfd8dcfa7f85761",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 5350,
@@ -169,8 +169,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://kerberos.org/dist/krb5/1.22/krb5-1.22.2.tar.gz",
-                    "sha256": "3243ffbc8ea4d4ac22ddc7dd2a1dc54c57874c40648b60ff97009763554eaf13",
+                    "url": "https://kerberos.org/dist/krb5/1.22/krb5-1.22.3.tar.gz",
+                    "sha256": "fe90af8441ad9fa9b064b8e53077cefb782a96f8a68276b031dc54af1789ff0b",
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://kerberos.org/dist/",
